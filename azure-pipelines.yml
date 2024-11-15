@@ -1,0 +1,33 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  DOCKER_REGISTRY_SERVICE_CONNECTION: '<PalleoptimeringServiceConnection>'
+  IMAGE_NAME: 'Palleoptimering'
+
+steps:
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '5.x'
+    installationPath: $(Agent.ToolsDirectory)/dotnet
+
+- task: DockerInstaller@0
+  inputs:
+    dockerVersion: '18.06.0'
+
+- script: docker build -t $(IMAGE_NAME) .
+  displayName: 'Build Docker Image'
+
+- script: docker tag $(IMAGE_NAME) $(DOCKER_REGISTRY_SERVICE_CONNECTION)/$(IMAGE_NAME):$(Build.BuildId)
+  displayName: 'Tag Image'
+
+- script: docker push $(DOCKER_REGISTRY_SERVICE_CONNECTION)/$(IMAGE_NAME):$(Build.BuildId)
+  displayName: 'Push Image'
+
+- script: |
+    docker-compose -f docker-compose.yml up -d
+  displayName: 'Run Docker Containers'

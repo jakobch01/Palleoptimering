@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  web:
+    image: Palleoptimering
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Server=db;Database=MyDatabase;User=sa;Password=YourStrong@Passw0rd;
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      SA_PASSWORD: "YourStrong@Passw0rd"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - ./init_db.sh:/docker-entrypoint-initdb.d/init_db.sh
