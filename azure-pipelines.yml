@@ -5,8 +5,11 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  DOCKER_REGISTRY_SERVICE_CONNECTION: 'PalleoptimeringServiceConnection'  # Make sure this is the exact name of your service connection
+  DOCKER_REGISTRY: 'docker.io'  # Docker Hub registry URL
+  DOCKER_USERNAME: 'jakobch01'  # Replace with your Docker Hub username
   IMAGE_NAME: 'palleoptimering'
+  TAG: '$(Build.BuildId)'  # Use the build ID as the tag
+  
 
 steps:
 - task: UseDotNet@2
@@ -19,14 +22,20 @@ steps:
   inputs:
     dockerVersion: '20.10.7'
 
-- script: docker build -t $(IMAGE_NAME) .
+# Step 1: Build the Docker image
+- script: docker build -t $(DOCKER_USERNAME)/$(IMAGE_NAME):$(TAG) .
   displayName: 'Build Docker Image'
 
-- script: docker tag $(IMAGE_NAME) $(DOCKER_REGISTRY_SERVICE_CONNECTION)/$(IMAGE_NAME):$(Build.BuildId)
-  displayName: 'Tag Image'
+# Step 2: Tag the Docker image
+- script: docker tag $(DOCKER_USERNAME)/$(IMAGE_NAME):$(TAG) $(DOCKER_USERNAME)/$(IMAGE_NAME):latest
+  displayName: 'Tag Docker Image with Latest'
 
-- script: docker push $(DOCKER_REGISTRY_SERVICE_CONNECTION)/$(IMAGE_NAME):$(Build.BuildId)
-  displayName: 'Push Image'
+  # Step 3: Log in to Docker Hub (using the service connection)
+- task: Docker@2
+  inputs:
+    command: 'login'
+    containerRegistry: '<your-dockerhub-service-connection>'  # Replace with your Docker Hub service connection name
+  displayName: 'Docker Hub Login'
 
 - script: |
     docker-compose -f docker-compose.yml up -d
