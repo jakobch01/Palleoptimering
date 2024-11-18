@@ -17,7 +17,7 @@ steps:
 
 - task: DockerInstaller@0
   inputs:
-    dockerVersion: '18.06.0'
+    dockerVersion: '20.10.7'
 
 - script: docker build -t $(IMAGE_NAME) .
   displayName: 'Build Docker Image'
