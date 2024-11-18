@@ -34,7 +34,7 @@ steps:
 - task: Docker@2
   inputs:
     command: 'login'
-    containerRegistry: '<your-dockerhub-service-connection>'  # Replace with your Docker Hub service connection name
+    containerRegistry: 'PalleoptimeringServiceConnection'  # Replace with your Docker Hub service connection name
   displayName: 'Docker Hub Login'
 
 - script: |
