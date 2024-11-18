@@ -6,7 +6,7 @@ pool:
 
 variables:
   DOCKER_REGISTRY_SERVICE_CONNECTION: '<PalleoptimeringServiceConnection>'
-  IMAGE_NAME: 'Palleoptimering'
+  IMAGE_NAME: 'palleoptimering'
 
 steps:
 - task: UseDotNet@2
