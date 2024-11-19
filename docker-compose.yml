@@ -10,7 +10,7 @@ services:
       - "8080:80"
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
-      - ConnectionStrings__DefaultConnection=Server=db;Database=Palleoptimering;User=sa;Password=YourStrong@Passw0rd,TrustServerCertificate=True;
+      - ConnectionStrings__DefaultConnection=Server=db;Database=Palleoptimering;User=sa;Password=YourStrong@Passw0rd;TrustServerCertificate=True;
 
   db:
     image: mcr.microsoft.com/mssql/server:2019-latest
