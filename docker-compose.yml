@@ -10,7 +10,9 @@ services:
       - "8080:80"
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
-      - ConnectionStrings__DefaultConnection=Server=db;Database=Palleoptimering;User=sa;Password=YourStrong@Passw0rd;TrustServerCertificate=True;
+      - ConnectionStrings__DefaultConnection=Server=db,1433;Database=Palleoptimering;User Id=sa;Password=YourStrong@Passw0rd;TrustServerCertificate=True
+    depends_on:
+      - db
 
   db:
     image: mcr.microsoft.com/mssql/server:2019-latest
@@ -21,3 +23,6 @@ services:
       - "1433:1433"
     volumes:
       - ./init_db.sh:/docker-entrypoint-initdb.d/init_db.sh
+
+volumes:
+  db_data:
