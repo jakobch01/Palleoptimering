@@ -18,7 +18,6 @@ namespace Palleoptimering.Models
 				context.Pallets.AddRange(
 					new Pallet
 					{
-						Column = 1,
 						PalletDescription = "Noget",
 						Length = 10,
 						Width = 10,
@@ -27,7 +26,7 @@ namespace Palleoptimering.Models
 						PalletType = "træ",
 						Weight = 10,
 						MaxHeight = 20,
-						MaxWidth = 20,
+						MaxWeight = 20,
 						Overmeasure = 20,
 						AvailableSpaces = 3,
 						SpecialPallet = false,
@@ -36,7 +35,6 @@ namespace Palleoptimering.Models
 					},
 					new Pallet
 					{
-						Column = 2,
 						PalletDescription = "Noget2",
 						Length = 20,
 						Width = 20,
@@ -45,7 +43,7 @@ namespace Palleoptimering.Models
 						PalletType = "metal",
 						Weight = 20,
 						MaxHeight = 40,
-						MaxWidth = 40,
+						MaxWeight = 40,
 						Overmeasure = 40,
 						AvailableSpaces = 6,
 						SpecialPallet = false,

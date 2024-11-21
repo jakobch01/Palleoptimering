@@ -11,7 +11,7 @@ using Palleoptimering.Models;
 namespace Palleoptimering.Migrations
 {
     [DbContext(typeof(PalletDbContext))]
-    [Migration("20241118133441_Initial")]
+    [Migration("20241121115444_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -38,9 +38,6 @@ namespace Palleoptimering.Migrations
                     b.Property<int>("AvailableSpaces")
                         .HasColumnType("int");
 
-                    b.Property<int>("Column")
-                        .HasColumnType("int");
-
                     b.Property<int>("Height")
                         .HasColumnType("int");
 
@@ -50,7 +47,7 @@ namespace Palleoptimering.Migrations
                     b.Property<int>("MaxHeight")
                         .HasColumnType("int");
 
-                    b.Property<int>("MaxWidth")
+                    b.Property<int>("MaxWeight")
                         .HasColumnType("int");
 
                     b.Property<int>("Overmeasure")

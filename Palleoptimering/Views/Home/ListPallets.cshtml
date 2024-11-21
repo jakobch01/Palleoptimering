@@ -1,0 +1,48 @@
+﻿@model Palleoptimering.Models.ViewModels.PalletListViewModel;
+
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+        <title>Paller</title>
+    </head>
+    <body>
+        <div class="text-center m-2">
+            <h2 class="text-center">
+                Liste med alle palle
+            </h2>
+        <table class="table table-bordered table-striped table-sm">
+            <thead>
+                <tr>
+                    <th>Palle Id</th><th>Palle beskrivelse</th><th>Længde</th><th>Bredde</th>
+                    <th>Højde</th><th>Pallegruppe</th><th>Palletype</th><th>Vægt</th>
+                    <th>Max højde</th><th>Max vægt</th><th>Overmål</th><th>Antal pladser</th>
+                    <th>Special palle</th><th>Luft mellem elementer</th><th>Aktiv</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var p in Model?.Pallets ?? Enumerable.Empty<Palleoptimering.Models.Pallet>())
+                {
+                    <tr>
+                        <td>@p.Id</td>
+                        <td>@p.PalletDescription</td>
+                        <td>@p.Length</td>
+                        <td>@p.Width</td>
+                        <td>@p.Height</td>
+                        <td>@p.PalletGroup</td>
+                        <td>@p.PalletType</td>
+                        <td>@p.Weight</td>
+                        <td>@p.MaxHeight</td>
+                        <td>@p.MaxWeight</td>
+                        <td>@p.Overmeasure</td>
+                        <td>@p.AvailableSpaces</td>
+                        <td>@p.SpecialPallet</td>
+                        <td>@p.SpaceBetweenElements</td>
+                        <td>@p.Active</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        </div>
+    </body>
+</html>

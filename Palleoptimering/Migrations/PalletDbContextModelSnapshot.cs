@@ -35,9 +35,6 @@ namespace Palleoptimering.Migrations
                     b.Property<int>("AvailableSpaces")
                         .HasColumnType("int");
 
-                    b.Property<int>("Column")
-                        .HasColumnType("int");
-
                     b.Property<int>("Height")
                         .HasColumnType("int");
 
@@ -47,7 +44,7 @@ namespace Palleoptimering.Migrations
                     b.Property<int>("MaxHeight")
                         .HasColumnType("int");
 
-                    b.Property<int>("MaxWidth")
+                    b.Property<int>("MaxWeight")
                         .HasColumnType("int");
 
                     b.Property<int>("Overmeasure")
