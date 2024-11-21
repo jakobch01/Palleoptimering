@@ -1,23 +1,36 @@
-﻿@model Palleoptimering.Models.ViewModels.PalletListViewModel;
+﻿@model Palleoptimering.Models.ViewModels.PalletListViewModel
 
 <!DOCTYPE html>
-    <head>
-        <meta name="viewport" content="width=device-width" />
-        <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
-        <title>Paller</title>
-    </head>
-    <body>
-        <div class="text-center m-2">
-            <h2 class="text-center">
-                Liste med alle palle
-            </h2>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+    <title>Paller</title>
+</head>
+<body>
+    <div class="text-center m-2">
+        <h2 class="text-center">
+            Liste med alle palle
+        </h2>
         <table class="table table-bordered table-striped table-sm">
             <thead>
                 <tr>
-                    <th>Palle Id</th><th>Palle beskrivelse</th><th>Længde</th><th>Bredde</th>
-                    <th>Højde</th><th>Pallegruppe</th><th>Palletype</th><th>Vægt</th>
-                    <th>Max højde</th><th>Max vægt</th><th>Overmål</th><th>Antal pladser</th>
-                    <th>Special palle</th><th>Luft mellem elementer</th><th>Aktiv</th>
+                    <th>Palle Id</th>
+                    <th>Palle beskrivelse</th>
+                    <th>Længde</th>
+                    <th>Bredde</th>
+                    <th>Højde</th>
+                    <th>Pallegruppe</th>
+                    <th>Palletype</th>
+                    <th>Vægt</th>
+                    <th>Max højde</th>
+                    <th>Max vægt</th>
+                    <th>Overmål</th>
+                    <th>Antal pladser</th>
+                    <th>Special palle</th>
+                    <th>Luft mellem elementer</th>
+                    <th>Aktiv</th>
+                    <th>Handlinger</th> <!-- Actions column header -->
                 </tr>
             </thead>
             <tbody>
@@ -39,11 +52,15 @@
                         <td>@p.SpecialPallet</td>
                         <td>@p.SpaceBetweenElements</td>
                         <td>@p.Active</td>
+                        <td>
+                            <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-id="@p.Id">Edit</a>
+                            <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@p.Id">Delete</a>
+                        </td>
                     </tr>
                 }
             </tbody>
         </table>
         <a class="btn btn-primary" asp-action="CreatePallet">Opret palle</a>
-        </div>
-    </body>
+    </div>
+</body>
 </html>
