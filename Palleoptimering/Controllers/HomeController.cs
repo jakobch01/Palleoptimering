@@ -22,5 +22,19 @@ namespace Palleoptimering.Controllers
         {
             return View(new PalletListViewModel { Pallets = repository.Pallets});
         }
+
+        [HttpPost]
+        public IActionResult CreatePallet(Pallet pallet) 
+        {
+            if (ModelState.IsValid) 
+            {
+                repository.AddPallet(pallet);
+                return RedirectToAction("ListPallets");
+            } else
+            {
+                return View();
+            }
+
+        }
     }
 }
