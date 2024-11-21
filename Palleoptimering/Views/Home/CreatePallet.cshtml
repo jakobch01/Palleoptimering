@@ -1,14 +1,10 @@
 ﻿@model Palleoptimering.Models.Pallet;
-@{
-	Layout = null;
-}
 
 <!DOCTYPE html>
     <head>
         <meta name="viewport" content="width=device-width" />
         <title>Opret palle</title>
         <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="/css/styles.css" />
     </head>
     <body>
         <h5 class="bg-primary text-white text-center m-2 p-2">Palle</h5>
@@ -60,7 +56,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="SpecialPallet" class="form-label">Special palle:</label>
-                <input asp-for="SpecialPallet" class="form-control" />
+                <input asp-for="SpecialPallet" class="form-check-input" type="checkbox" />
             </div>
             <div class="form-group">
                 <label asp-for="SpaceBetweenElements" class="form-label">Luft mellem elementer:</label>
@@ -68,7 +64,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Active" class="form-label">Aktiv:</label>
-                <input asp-for="Active" class="form-control" />
+                <input asp-for="Active" class="form-check-input" type="checkbox" />
             </div>
         <button type="submit" class="btn btn-primary mt-3">Opret</button>
         <button type="button" class="btn btn-primary mt-3" onclick="location.href='@Url.Action("Index", "Home")'">Cancel</button>

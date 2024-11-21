@@ -23,6 +23,12 @@ namespace Palleoptimering.Controllers
             return View(new PalletListViewModel { Pallets = repository.Pallets});
         }
 
+        [HttpGet]
+        public ViewResult CreatePallet()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult CreatePallet(Pallet pallet) 
         {
