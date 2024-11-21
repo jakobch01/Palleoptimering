@@ -3,11 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Palleoptimering.Controllers
 {
-    public class HomeController : Controller
+    [Authorize]
+    public class ProtectedController : Controller
     {
-
-        [Authorize]
-        public IActionResult Index()
+        public IActionResult SecureAction()
         {
             return View();
         }

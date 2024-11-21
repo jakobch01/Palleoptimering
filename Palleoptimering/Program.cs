@@ -29,7 +29,6 @@ else
     app.UseHsts(); // HTTP Strict Transport Security (kun i produktion)
 }
 
-app.UseHttpsRedirection(); // Force HTTPS for sikkerhed
 app.UseStaticFiles(); // Gør statiske filer tilgængelige (som CSS, JS, billeder)
 
 app.UseRouting(); // Brug routing middleware til at håndtere requests
@@ -40,7 +39,7 @@ app.UseAuthorization();   // Sørg for at authorization middleware er tilføjet
 // Konfigurere controller routing
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=User}/{action=Login}/{id?}");
 
 
 app.Run();

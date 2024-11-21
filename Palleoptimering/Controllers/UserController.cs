@@ -19,7 +19,8 @@ namespace Palleoptimering.Controllers
         // GET: /User/Login
         public IActionResult Login(string returnUrl = null)
         {
-            ViewData["ReturnUrl"] = returnUrl; // For tracking the URL to redirect after login
+            // Set up the returnUrl to redirect to after login
+            ViewData["ReturnUrl"] = returnUrl;
             return View();
         }
 
@@ -28,27 +29,30 @@ namespace Palleoptimering.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(Login model, string returnUrl = null)
         {
-            returnUrl = returnUrl ?? Url.Content("~/"); // Default to home if no return URL is set
+            returnUrl = returnUrl ?? Url.Content("~/"); // Default to the home page if no return URL is provided
 
             if (ModelState.IsValid)
             {
-                var signin = await _userManager.FindByNameAsync(model.Username);
-                if (signin == null)
+                // Attempt to find the user by the provided username
+                var user = await _userManager.FindByNameAsync(model.Username);
+                if (user == null)
                 {
+                    // If user not found, show error message
                     ModelState.AddModelError(string.Empty, "Brugernavn eller adgangskode er forkert.");
                     return View(model);
                 }
 
-                await _signInManager.SignOutAsync();
-                var result = await _signInManager.PasswordSignInAsync(signin, model.Password, model.RememberMe, false);
+                // Sign the user in
+                var result = await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, lockoutOnFailure: false);
 
                 if (result.Succeeded)
                 {
-                    return RedirectToLocal(returnUrl); // Redirect back to the original page after login
+                    // Redirect to the return URL or home page after successful login
+                    return RedirectToLocal(returnUrl);
                 }
 
+                // If login failed, show an error message
                 ModelState.AddModelError(string.Empty, "Brugernavn eller adgangskode er forkert.");
-                return View(model);
             }
 
             return View(model);
@@ -60,35 +64,32 @@ namespace Palleoptimering.Controllers
             return View();
         }
 
-        // POST: /User/Create (Register new user)
+        // POST: /User/Create (Register a new user)
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Register model)
         {
             if (ModelState.IsValid)
             {
-                // Ensure passwords match
-                if (model.Password != model.ConfirmPassword)
-                {
-                    ModelState.AddModelError(string.Empty, "Adgangskoderne stemmer ikke overens.");
-                    return View(model);
-                }
-
+                // Create a new IdentityUser
                 var user = new IdentityUser { UserName = model.Username, Email = model.Email };
                 var result = await _userManager.CreateAsync(user, model.Password);
 
                 if (result.Succeeded)
                 {
-                    // Automatically sign in the new user
+                    // Sign in the user after successful registration
                     await _signInManager.SignInAsync(user, isPersistent: false);
-                    return RedirectToAction("Index", "Home"); // Redirect to the homepage after registration
+                    return RedirectToAction("Index", "Home");
                 }
 
+                // Log errors from the result and display them
                 foreach (var error in result.Errors)
                 {
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
             }
+
+            // If model validation fails or user creation fails, show the registration page again
             return View(model);
         }
 
@@ -96,20 +97,21 @@ namespace Palleoptimering.Controllers
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction("Index", "Home"); // Redirect to the home page after logout
+            return RedirectToAction("Index", "Home"); // Redirect to the home page after logging out
         }
 
         // Helper method to handle redirection after login
         private IActionResult RedirectToLocal(string returnUrl)
         {
-            if (Url.IsLocalUrl(returnUrl))
+            if (Url.IsLocalUrl(returnUrl)) // Check if the URL is local
             {
-                return Redirect(returnUrl);
+                return Redirect(returnUrl); // Redirect to the local URL
             }
             else
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Home"); // Default fallback to the home page
             }
         }
     }
 }
+
