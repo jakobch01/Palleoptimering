@@ -162,7 +162,6 @@ C:\Users\UMUTCAN\OneDrive - Erhvervsakademi MidtVest\Dokumenter\GitHub\Palleopti
 C:\Users\UMUTCAN\OneDrive - Erhvervsakademi MidtVest\Dokumenter\GitHub\Palleoptimering\Palleoptimering\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Palleoptimering.props
 C:\Users\UMUTCAN\OneDrive - Erhvervsakademi MidtVest\Dokumenter\GitHub\Palleoptimering\Palleoptimering\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Palleoptimering.props
 C:\Users\UMUTCAN\OneDrive - Erhvervsakademi MidtVest\Dokumenter\GitHub\Palleoptimering\Palleoptimering\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\UMUTCAN\OneDrive - Erhvervsakademi MidtVest\Dokumenter\GitHub\Palleoptimering\Palleoptimering\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\UMUTCAN\OneDrive - Erhvervsakademi MidtVest\Dokumenter\GitHub\Palleoptimering\Palleoptimering\obj\Debug\net8.0\Palleopt.773C756B.Up2Date
 C:\Users\UMUTCAN\OneDrive - Erhvervsakademi MidtVest\Dokumenter\GitHub\Palleoptimering\Palleoptimering\obj\Debug\net8.0\Palleoptimering.dll
 C:\Users\UMUTCAN\OneDrive - Erhvervsakademi MidtVest\Dokumenter\GitHub\Palleoptimering\Palleoptimering\obj\Debug\net8.0\refint\Palleoptimering.dll
