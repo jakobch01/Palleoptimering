@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Palleoptimering")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+206ac1643661f4f481b9f1b25b12cd7592b9f3d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+968d18f187d8e52f468cc4dda026bc2123636d2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Palleoptimering")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Palleoptimering")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

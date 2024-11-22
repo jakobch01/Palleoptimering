@@ -71,12 +71,18 @@ namespace Palleoptimering.Controllers
         {
             if (ModelState.IsValid)
             {
+
+                Console.WriteLine("Model er gyldig.");
+                Console.WriteLine($"Brugernavn: {model.Username}, Email: {model.Email}");
+
+
                 // Create a new IdentityUser
                 var user = new IdentityUser { UserName = model.Username, Email = model.Email };
                 var result = await _userManager.CreateAsync(user, model.Password);
 
                 if (result.Succeeded)
                 {
+                    Console.WriteLine("Brugeren blev oprettet.");
                     // Sign in the user after successful registration
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     return RedirectToAction("Index", "Home");
@@ -85,8 +91,13 @@ namespace Palleoptimering.Controllers
                 // Log errors from the result and display them
                 foreach (var error in result.Errors)
                 {
+                    Console.WriteLine($"Fejl: {error.Description}");
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
+            }
+            else
+            {
+                Console.WriteLine("ModelState er ugyldig.");
             }
 
             // If model validation fails or user creation fails, show the registration page again

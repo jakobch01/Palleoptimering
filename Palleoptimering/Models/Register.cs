@@ -14,5 +14,10 @@ namespace Palleoptimering.Models
         [Required]
         [MinLength(6, ErrorMessage = "Adgangskode skal være mindst 6 tegn lang")]
         public string Password { get; set; }
+
+        [Required]
+        [DataType(DataType.Password)]
+        [Compare("Password", ErrorMessage = "Adgangskoderne stemmer ikke overens.")]
+        public string ConfirmPassword { get; set; }
     }
 }

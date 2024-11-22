@@ -4,9 +4,9 @@ using Palleoptimering.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Tilføj DbContext og konfiguration for Identity
 builder.Services.AddDbContext<AppIdentityDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"))); // Sørg for at denne connection string findes i appsettings.json
+    options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"), sqlOptions =>
+        sqlOptions.EnableRetryOnFailure()));  // Aktiverer retry ved fejl i forbindelse med SQL Server
 
 // Konfigurer Identity med brugerdefineret DbContext
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
