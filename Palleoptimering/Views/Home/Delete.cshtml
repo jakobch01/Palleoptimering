@@ -1,0 +1,121 @@
+﻿@model Palleoptimering.Models.Pallet
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+    <title>Slet Palle</title>
+</head>
+<body>
+    <h5 class="bg-danger text-white text-center m-2 p-2">Slet Palle</h5>
+    <div class="container">
+        <h3 class="text-center">Er du sikker på du vil slette denne palle?</h3>
+
+        <div class="bg-light p-4 rounded shadow-sm">
+            <h4 class="text-center">@Model.PalletDescription</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-2">
+                    Palle Id
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.Id
+                </dd>
+                <dt class="col-sm-2">
+                    Palle beskrivelse
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.PalletDescription
+                </dd>
+                <dt class="col-sm-2">
+                    Længde
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.Length
+                </dd>
+                <dt class="col-sm-2">
+                    Bredde
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.Width
+                </dd>
+                <dt class="col-sm-2">
+                    Højde
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.Height
+                </dd>
+                <dt class="col-sm-2">
+                    Palle gruppe
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.PalletGroup
+                </dd>
+                <dt class="col-sm-2">
+                    Palle type
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.PalletType
+                </dd>
+                <dt class="col-sm-2">
+                    Vægt
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.Weight
+                </dd>
+                <dt class="col-sm-2">
+                    Max højde
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.MaxHeight
+                </dd>
+                <dt class="col-sm-2">
+                    Max vægt
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.MaxWeight
+                </dd>
+                <dt class="col-sm-2">
+                    Overmål
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.Overmeasure
+                </dd>
+                <dt class="col-sm-2">
+                    Antal pladser
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.AvailableSpaces
+                </dd>
+                <dt class="col-sm-2">
+                    Special palle
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.SpecialPallet
+                </dd>
+                <dt class="col-sm-2">
+                    Luft mellem elementer
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.SpaceBetweenElements
+                </dd>
+                <dt class="col-sm-2">
+                    Aktiv
+                </dt>
+                <dd class="col-sm-10">
+                    @Model.Active
+                </dd>
+            </dl>
+
+            <form asp-action="Delete" method="post">
+                <input type="hidden" asp-for="Id" />
+                <div class="text-center">
+                    <button type="submit" class="btn btn-danger">Slet</button>
+                    <a asp-action="ListPallets" class="btn btn-secondary">Fortryd</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
