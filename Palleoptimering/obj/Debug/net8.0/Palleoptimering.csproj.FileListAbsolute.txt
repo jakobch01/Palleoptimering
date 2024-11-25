@@ -168,3 +168,4 @@ C:\Users\UMUTCAN\OneDrive - Erhvervsakademi MidtVest\Dokumenter\GitHub\Palleopti
 C:\Users\UMUTCAN\OneDrive - Erhvervsakademi MidtVest\Dokumenter\GitHub\Palleoptimering\Palleoptimering\obj\Debug\net8.0\Palleoptimering.pdb
 C:\Users\UMUTCAN\OneDrive - Erhvervsakademi MidtVest\Dokumenter\GitHub\Palleoptimering\Palleoptimering\obj\Debug\net8.0\Palleoptimering.genruntimeconfig.cache
 C:\Users\UMUTCAN\OneDrive - Erhvervsakademi MidtVest\Dokumenter\GitHub\Palleoptimering\Palleoptimering\obj\Debug\net8.0\ref\Palleoptimering.dll
+C:\Users\UMUTCAN\OneDrive - Erhvervsakademi MidtVest\Dokumenter\GitHub\Palleoptimering\Palleoptimering\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

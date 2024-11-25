@@ -3,48 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\palleoptimering.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\palleoptimering.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\models\\appidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\models\\appidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\controllers\\protectedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\controllers\\protectedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\migrations\\appidentitydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\migrations\\appidentitydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\migrations\\20241121152600_initialidentitysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\migrations\\20241121152600_initialidentitysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\migrations\\20241122120923_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\migrations\\20241122120923_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Migrations\\20241121152027_InitialSetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,16 +51,32 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Palleoptimering\\Migrations\\20241121151649_InitialIdentitySetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\migrations\\20241121152600_initialidentitysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\migrations\\20241121152600_initialidentitysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\palleoptimering.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\palleoptimering.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\models\\appidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\models\\appidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\controllers\\protectedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\controllers\\protectedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -77,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\models\\pallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\models\\pallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\umutcan\\onedrive - erhvervsakademi midtvest\\dokumenter\\github\\palleoptimering\\palleoptimering\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -98,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,163 +130,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Views\\User\\Login.cshtml",
-              "RelativeDocumentMoniker": "Palleoptimering\\Views\\User\\Login.cshtml",
-              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Views\\User\\Login.cshtml",
-              "RelativeToolTip": "Palleoptimering\\Views\\User\\Login.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T09:28:23.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Program.cs",
-              "RelativeDocumentMoniker": "Palleoptimering\\Program.cs",
-              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Program.cs",
-              "RelativeToolTip": "Palleoptimering\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T11:36:08.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Palleoptimering\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Controllers\\UserController.cs",
               "RelativeToolTip": "Palleoptimering\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T09:05:59.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Dockerfile",
-              "RelativeDocumentMoniker": "Palleoptimering\\Dockerfile",
-              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Dockerfile",
-              "RelativeToolTip": "Palleoptimering\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-21T15:12:17.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\appsettings.json",
-              "RelativeDocumentMoniker": "Palleoptimering\\appsettings.json",
-              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\appsettings.json",
-              "RelativeToolTip": "Palleoptimering\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-11T11:35:39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Palleoptimering.csproj",
-              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Palleoptimering.csproj",
-              "RelativeDocumentMoniker": "Palleoptimering\\Palleoptimering.csproj",
-              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Palleoptimering.csproj",
-              "RelativeToolTip": "Palleoptimering\\Palleoptimering.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-11T11:36:43.755Z",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Program.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Program.cs",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Program.cs",
+              "RelativeToolTip": "Palleoptimering\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T11:36:08.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Views\\User\\Create.cshtml",
-              "RelativeDocumentMoniker": "Palleoptimering\\Views\\User\\Create.cshtml",
-              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Views\\User\\Create.cshtml",
-              "RelativeToolTip": "Palleoptimering\\Views\\User\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T09:15:57.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Register.cs",
-              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Models\\Register.cs",
-              "RelativeDocumentMoniker": "Palleoptimering\\Models\\Register.cs",
-              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Models\\Register.cs",
-              "RelativeToolTip": "Palleoptimering\\Models\\Register.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T09:05:37.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Models\\Login.cs",
-              "RelativeDocumentMoniker": "Palleoptimering\\Models\\Login.cs",
-              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Models\\Login.cs",
-              "RelativeToolTip": "Palleoptimering\\Models\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T09:05:33.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AppIdentityDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Models\\AppIdentityDbContext.cs",
-              "RelativeDocumentMoniker": "Palleoptimering\\Models\\AppIdentityDbContext.cs",
-              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Models\\AppIdentityDbContext.cs",
-              "RelativeToolTip": "Palleoptimering\\Models\\AppIdentityDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T09:05:33.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProtectedController.cs",
-              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Controllers\\ProtectedController.cs",
-              "RelativeDocumentMoniker": "Palleoptimering\\Controllers\\ProtectedController.cs",
-              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Controllers\\ProtectedController.cs",
-              "RelativeToolTip": "Palleoptimering\\Controllers\\ProtectedController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T09:34:32.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Palleoptimering\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Palleoptimering\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T12:05:47.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Palleoptimering\\Views\\Home\\Index.cshtml",
@@ -291,81 +169,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20241121152600_InitialIdentitySetup.cs",
-              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Migrations\\20241121152600_InitialIdentitySetup.cs",
-              "RelativeDocumentMoniker": "Palleoptimering\\Migrations\\20241121152600_InitialIdentitySetup.cs",
-              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Migrations\\20241121152600_InitialIdentitySetup.cs",
-              "RelativeToolTip": "Palleoptimering\\Migrations\\20241121152600_InitialIdentitySetup.cs",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Palleoptimering\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Palleoptimering\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T12:05:47.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Models\\Login.cs",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Models\\Login.cs",
+              "RelativeToolTip": "Palleoptimering\\Models\\Login.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T15:26:00.428Z",
+              "WhenOpened": "2024-11-21T09:05:33.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20241121151649_InitialIdentitySetup.cs",
-              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Migrations\\20241121151649_InitialIdentitySetup.cs",
-              "RelativeDocumentMoniker": "Palleoptimering\\Migrations\\20241121151649_InitialIdentitySetup.cs",
-              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Migrations\\20241121151649_InitialIdentitySetup.cs",
-              "RelativeToolTip": "Palleoptimering\\Migrations\\20241121151649_InitialIdentitySetup.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T15:16:49.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20241121152027_InitialSetup.cs",
-              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Migrations\\20241121152027_InitialSetup.cs",
-              "RelativeDocumentMoniker": "Palleoptimering\\Migrations\\20241121152027_InitialSetup.cs",
-              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Migrations\\20241121152027_InitialSetup.cs",
-              "RelativeToolTip": "Palleoptimering\\Migrations\\20241121152027_InitialSetup.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T15:20:27.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "libman.json",
-              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\libman.json",
-              "RelativeDocumentMoniker": "Palleoptimering\\libman.json",
-              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\libman.json",
-              "RelativeToolTip": "Palleoptimering\\libman.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-21T09:15:44.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Palleoptimering\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Palleoptimering\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-11T11:35:45.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Pallet.cs",
-              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Models\\Pallet.cs",
-              "RelativeDocumentMoniker": "Palleoptimering\\Models\\Pallet.cs",
-              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Models\\Pallet.cs",
-              "RelativeToolTip": "Palleoptimering\\Models\\Pallet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T12:08:07.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Palleoptimering\\Controllers\\HomeController.cs",
@@ -378,7 +208,201 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppIdentityDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Migrations\\AppIdentityDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Migrations\\AppIdentityDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Migrations\\AppIdentityDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Palleoptimering\\Migrations\\AppIdentityDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAowBQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:43:20.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "Palleoptimering\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "Palleoptimering\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T09:28:23.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20241121152600_InitialIdentitySetup.cs",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Migrations\\20241121152600_InitialIdentitySetup.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Migrations\\20241121152600_InitialIdentitySetup.cs",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Migrations\\20241121152600_InitialIdentitySetup.cs",
+              "RelativeToolTip": "Palleoptimering\\Migrations\\20241121152600_InitialIdentitySetup.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAowGgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:26:00.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20241122120923_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Migrations\\20241122120923_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Migrations\\20241122120923_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Migrations\\20241122120923_InitialCreate.cs",
+              "RelativeToolTip": "Palleoptimering\\Migrations\\20241122120923_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:53:52.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Palleoptimering.csproj",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Palleoptimering.csproj",
+              "RelativeDocumentMoniker": "Palleoptimering\\Palleoptimering.csproj",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Palleoptimering.csproj",
+              "RelativeToolTip": "Palleoptimering\\Palleoptimering.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-11T11:36:43.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\appsettings.json",
+              "RelativeDocumentMoniker": "Palleoptimering\\appsettings.json",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\appsettings.json",
+              "RelativeToolTip": "Palleoptimering\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-11T11:35:39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Dockerfile",
+              "RelativeDocumentMoniker": "Palleoptimering\\Dockerfile",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Dockerfile",
+              "RelativeToolTip": "Palleoptimering\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-21T15:12:17.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "Palleoptimering\\Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "Palleoptimering\\Views\\User\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T09:15:57.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Models\\Register.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Models\\Register.cs",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Models\\Register.cs",
+              "RelativeToolTip": "Palleoptimering\\Models\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:05:37.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppIdentityDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Models\\AppIdentityDbContext.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Models\\AppIdentityDbContext.cs",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Models\\AppIdentityDbContext.cs",
+              "RelativeToolTip": "Palleoptimering\\Models\\AppIdentityDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:05:33.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProtectedController.cs",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Controllers\\ProtectedController.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Controllers\\ProtectedController.cs",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Controllers\\ProtectedController.cs",
+              "RelativeToolTip": "Palleoptimering\\Controllers\\ProtectedController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:34:32.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20241121151649_InitialIdentitySetup.cs",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Migrations\\20241121151649_InitialIdentitySetup.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Migrations\\20241121151649_InitialIdentitySetup.cs",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Migrations\\20241121151649_InitialIdentitySetup.cs",
+              "RelativeToolTip": "Palleoptimering\\Migrations\\20241121151649_InitialIdentitySetup.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:16:49.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20241121152027_InitialSetup.cs",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Migrations\\20241121152027_InitialSetup.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Migrations\\20241121152027_InitialSetup.cs",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Migrations\\20241121152027_InitialSetup.cs",
+              "RelativeToolTip": "Palleoptimering\\Migrations\\20241121152027_InitialSetup.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:20:27.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\libman.json",
+              "RelativeDocumentMoniker": "Palleoptimering\\libman.json",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\libman.json",
+              "RelativeToolTip": "Palleoptimering\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T09:15:44.822Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Palleoptimering\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Palleoptimering\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-11T11:35:45.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Pallet.cs",
+              "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Models\\Pallet.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Models\\Pallet.cs",
+              "ToolTip": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Models\\Pallet.cs",
+              "RelativeToolTip": "Palleoptimering\\Models\\Pallet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T12:08:07.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Palleoptimering\\Views\\_ViewImports.cshtml",
@@ -386,12 +410,11 @@
               "RelativeToolTip": "Palleoptimering\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T12:04:14.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T12:04:14.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Palleoptimering\\Views\\_ViewStart.cshtml",
@@ -399,8 +422,7 @@
               "RelativeToolTip": "Palleoptimering\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T12:03:38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T12:03:38Z"
             }
           ]
         }

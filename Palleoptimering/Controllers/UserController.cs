@@ -41,7 +41,8 @@ namespace Palleoptimering.Controllers
                 var result = await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
-                    return RedirectToLocal(returnUrl);
+                    return RedirectToAction("Index", "Home");
+                   // return RedirectToLocal(returnUrl);
                 }
 
                 ModelState.AddModelError(string.Empty, "Brugernavn eller adgangskode er forkert.");
@@ -82,12 +83,7 @@ namespace Palleoptimering.Controllers
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction("Index", "Home");
-        }
-
-        private IActionResult RedirectToLocal(string returnUrl)
-        {
-            return Url.IsLocalUrl(returnUrl) ? Redirect(returnUrl) : RedirectToAction("Index", "Home");
+            return RedirectToAction("Login", "User");
         }
     }
 }

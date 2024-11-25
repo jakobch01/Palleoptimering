@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0Tusx3n5IbMAwwFJQ864jbiDFXF2LCbU3jqdVYE7vHY=",
+  "Hash": "Q6ac7vFxx/hnhkulhSqUZ8ZnC4WFZ4Py4Sh4U+ygzw8=",
   "Source": "Palleoptimering",
   "BasePath": "_content/Palleoptimering",
   "Mode": "Default",
@@ -16,6 +16,174 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
+      "SourceId": "Palleoptimering",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
+      "BasePath": "_content/Palleoptimering",
+      "RelativePath": "lib/bootstrap/css/bootstrap#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zub09dkrxp",
+      "Integrity": "CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
+      "SourceId": "Palleoptimering",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
+      "BasePath": "_content/Palleoptimering",
+      "RelativePath": "lib/bootstrap/css/bootstrap.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pj5nd1wqec",
+      "Integrity": "KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "SourceId": "Palleoptimering",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
+      "BasePath": "_content/Palleoptimering",
+      "RelativePath": "lib/bootstrap/css/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "43atpzeawx",
+      "Integrity": "sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
+      "SourceId": "Palleoptimering",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
+      "BasePath": "_content/Palleoptimering",
+      "RelativePath": "lib/bootstrap/css/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v0zj4ognzu",
+      "Integrity": "8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
+      "SourceId": "Palleoptimering",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
+      "BasePath": "_content/Palleoptimering",
+      "RelativePath": "lib/bootstrap/css/bootstrap.rtl#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ynyaa8k90p",
+      "Integrity": "/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "SourceId": "Palleoptimering",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
+      "BasePath": "_content/Palleoptimering",
+      "RelativePath": "lib/bootstrap/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hrwsygsryq",
+      "Integrity": "3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "SourceId": "Palleoptimering",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
+      "BasePath": "_content/Palleoptimering",
+      "RelativePath": "lib/bootstrap/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c63t5i9ira",
+      "Integrity": "rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "Palleoptimering",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
+      "BasePath": "_content/Palleoptimering",
+      "RelativePath": "lib/bootstrap/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ft3s53vfgj",
+      "Integrity": "rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
     {
       "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
       "SourceId": "Palleoptimering",
@@ -519,174 +687,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
-      "SourceId": "Palleoptimering",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
-      "BasePath": "_content/Palleoptimering",
-      "RelativePath": "lib/bootstrap/css/bootstrap#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "zub09dkrxp",
-      "Integrity": "CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.css"
-    },
-    {
-      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
-      "SourceId": "Palleoptimering",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
-      "BasePath": "_content/Palleoptimering",
-      "RelativePath": "lib/bootstrap/css/bootstrap.css#[.{fingerprint}]?.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "pj5nd1wqec",
-      "Integrity": "KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
-      "SourceId": "Palleoptimering",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
-      "BasePath": "_content/Palleoptimering",
-      "RelativePath": "lib/bootstrap/css/bootstrap.min#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "43atpzeawx",
-      "Integrity": "sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
-      "SourceId": "Palleoptimering",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
-      "BasePath": "_content/Palleoptimering",
-      "RelativePath": "lib/bootstrap/css/bootstrap.min.css#[.{fingerprint}]?.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "v0zj4ognzu",
-      "Integrity": "8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
-      "SourceId": "Palleoptimering",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
-      "BasePath": "_content/Palleoptimering",
-      "RelativePath": "lib/bootstrap/css/bootstrap.rtl#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ynyaa8k90p",
-      "Integrity": "/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
-      "SourceId": "Palleoptimering",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
-      "BasePath": "_content/Palleoptimering",
-      "RelativePath": "lib/bootstrap/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "hrwsygsryq",
-      "Integrity": "3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
-      "SourceId": "Palleoptimering",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
-      "BasePath": "_content/Palleoptimering",
-      "RelativePath": "lib/bootstrap/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "c63t5i9ira",
-      "Integrity": "rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "Palleoptimering",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
-      "BasePath": "_content/Palleoptimering",
-      "RelativePath": "lib/bootstrap/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ft3s53vfgj",
-      "Integrity": "rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map"
     },
     {
       "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
@@ -1697,6 +1697,27 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_utilities.scss"
     },
     {
+      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\scss\\_variables.scss",
+      "SourceId": "Palleoptimering",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
+      "BasePath": "_content/Palleoptimering",
+      "RelativePath": "lib/bootstrap/scss/_variables#[.{fingerprint}]?.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1xu9x4u4lt",
+      "Integrity": "xTVl362rsvNFkaRWPC3IC+YgYTCd507jlI7CDWeRG6o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_variables.scss"
+    },
+    {
       "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\scss\\_variables-dark.scss",
       "SourceId": "Palleoptimering",
       "SourceType": "Discovered",
@@ -1718,12 +1739,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_variables-dark.scss"
     },
     {
-      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\scss\\_variables.scss",
+      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss",
       "SourceId": "Palleoptimering",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
       "BasePath": "_content/Palleoptimering",
-      "RelativePath": "lib/bootstrap/scss/_variables#[.{fingerprint}]?.scss",
+      "RelativePath": "lib/bootstrap/scss/bootstrap#[.{fingerprint}]?.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1732,11 +1753,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1xu9x4u4lt",
-      "Integrity": "xTVl362rsvNFkaRWPC3IC+YgYTCd507jlI7CDWeRG6o=",
+      "Fingerprint": "c4kqvka62d",
+      "Integrity": "pKjLZTXCuLCovj2ZY18qEy+Qazlt06JOHebb/mbvVpo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\_variables.scss"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss"
     },
     {
       "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-grid.scss",
@@ -1800,27 +1821,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap-utilities.scss"
-    },
-    {
-      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss",
-      "SourceId": "Palleoptimering",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
-      "BasePath": "_content/Palleoptimering",
-      "RelativePath": "lib/bootstrap/scss/bootstrap#[.{fingerprint}]?.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "c4kqvka62d",
-      "Integrity": "pKjLZTXCuLCovj2ZY18qEy+Qazlt06JOHebb/mbvVpo=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss"
     },
     {
       "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\scss\\forms\\_floating-labels.scss",
@@ -2874,6 +2874,662 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "lib/bootstrap/css/bootstrap.css",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "293102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/css/bootstrap.css.map",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "679755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/css/bootstrap.css.pj5nd1wqec.map",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "679755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pj5nd1wqec"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/css/bootstrap.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/css/bootstrap.min.43atpzeawx.css",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "43atpzeawx"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/css/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/css/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589892"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/css/bootstrap.min.css.v0zj4ognzu.map",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589892"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v0zj4ognzu"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/css/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/css/bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "292288"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/css/bootstrap.rtl.css.hrwsygsryq.map",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "679615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hrwsygsryq"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/css/bootstrap.rtl.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/css/bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "679615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/css/bootstrap.rtl.min.c63t5i9ira.css",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c63t5i9ira"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/css/bootstrap.rtl.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/css/bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/css/bootstrap.rtl.min.css.ft3s53vfgj.map",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589087"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ft3s53vfgj"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/css/bootstrap.rtl.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/css/bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589087"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/css/bootstrap.rtl.ynyaa8k90p.css",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "292288"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ynyaa8k90p"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/css/bootstrap.rtl.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/css/bootstrap.zub09dkrxp.css",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "293102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zub09dkrxp"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ="
+        }
+      ]
+    },
     {
       "Route": "lib/bootstrap/css/bootstrap-grid.css",
       "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
@@ -4839,662 +5495,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-7MYEMUFgHEc1CjrfAK/TlV30POxgoxXk2b+vAs/143U="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "293102"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "679755"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/css/bootstrap.css.pj5nd1wqec.map",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "679755"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pj5nd1wqec"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/css/bootstrap.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/css/bootstrap.min.43atpzeawx.css",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "232808"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "43atpzeawx"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/css/bootstrap.min.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "232808"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "589892"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/css/bootstrap.min.css.v0zj4ognzu.map",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "589892"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v0zj4ognzu"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/css/bootstrap.min.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "292288"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/css/bootstrap.rtl.css.hrwsygsryq.map",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "679615"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hrwsygsryq"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/css/bootstrap.rtl.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "679615"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/css/bootstrap.rtl.min.c63t5i9ira.css",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "232916"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c63t5i9ira"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/css/bootstrap.rtl.min.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "232916"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/css/bootstrap.rtl.min.css.ft3s53vfgj.map",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "589087"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ft3s53vfgj"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/css/bootstrap.rtl.min.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "589087"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/css/bootstrap.rtl.ynyaa8k90p.css",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "292288"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ynyaa8k90p"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/css/bootstrap.rtl.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/css/bootstrap.zub09dkrxp.css",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "293102"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zub09dkrxp"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/css/bootstrap.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ="
         }
       ]
     },
@@ -9435,6 +9435,88 @@
       ]
     },
     {
+      "Route": "lib/bootstrap/scss/_variables.1xu9x4u4lt.scss",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\scss\\_variables.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78075"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xTVl362rsvNFkaRWPC3IC+YgYTCd507jlI7CDWeRG6o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1xu9x4u4lt"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/scss/_variables.scss"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xTVl362rsvNFkaRWPC3IC+YgYTCd507jlI7CDWeRG6o="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/scss/_variables.scss",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\scss\\_variables.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78075"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xTVl362rsvNFkaRWPC3IC+YgYTCd507jlI7CDWeRG6o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xTVl362rsvNFkaRWPC3IC+YgYTCd507jlI7CDWeRG6o="
+        }
+      ]
+    },
+    {
       "Route": "lib/bootstrap/scss/_variables-dark.a1rz0n5ysd.scss",
       "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\scss\\_variables-dark.scss",
       "Selectors": [],
@@ -9517,8 +9599,8 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/scss/_variables.1xu9x4u4lt.scss",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\scss\\_variables.scss",
+      "Route": "lib/bootstrap/scss/bootstrap.c4kqvka62d.scss",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9527,7 +9609,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "78075"
+          "Value": "990"
         },
         {
           "Name": "Content-Type",
@@ -9535,7 +9617,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xTVl362rsvNFkaRWPC3IC+YgYTCd507jlI7CDWeRG6o=\""
+          "Value": "\"pKjLZTXCuLCovj2ZY18qEy+Qazlt06JOHebb/mbvVpo=\""
         },
         {
           "Name": "Last-Modified",
@@ -9549,21 +9631,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1xu9x4u4lt"
+          "Value": "c4kqvka62d"
         },
         {
           "Name": "label",
-          "Value": "lib/bootstrap/scss/_variables.scss"
+          "Value": "lib/bootstrap/scss/bootstrap.scss"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xTVl362rsvNFkaRWPC3IC+YgYTCd507jlI7CDWeRG6o="
+          "Value": "sha256-pKjLZTXCuLCovj2ZY18qEy+Qazlt06JOHebb/mbvVpo="
         }
       ]
     },
     {
-      "Route": "lib/bootstrap/scss/_variables.scss",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\scss\\_variables.scss",
+      "Route": "lib/bootstrap/scss/bootstrap.scss",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9572,7 +9654,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "78075"
+          "Value": "990"
         },
         {
           "Name": "Content-Type",
@@ -9580,7 +9662,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xTVl362rsvNFkaRWPC3IC+YgYTCd507jlI7CDWeRG6o=\""
+          "Value": "\"pKjLZTXCuLCovj2ZY18qEy+Qazlt06JOHebb/mbvVpo=\""
         },
         {
           "Name": "Last-Modified",
@@ -9594,7 +9676,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xTVl362rsvNFkaRWPC3IC+YgYTCd507jlI7CDWeRG6o="
+          "Value": "sha256-pKjLZTXCuLCovj2ZY18qEy+Qazlt06JOHebb/mbvVpo="
         }
       ]
     },
@@ -9841,88 +9923,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-J8WS8dnQ4D1LDPBk6FVVb6VLuX3WM/ecf5c0k6V3klY="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/scss/bootstrap.c4kqvka62d.scss",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "990"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pKjLZTXCuLCovj2ZY18qEy+Qazlt06JOHebb/mbvVpo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c4kqvka62d"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/scss/bootstrap.scss"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pKjLZTXCuLCovj2ZY18qEy+Qazlt06JOHebb/mbvVpo="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/scss/bootstrap.scss",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "990"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pKjLZTXCuLCovj2ZY18qEy+Qazlt06JOHebb/mbvVpo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:05:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-pKjLZTXCuLCovj2ZY18qEy+Qazlt06JOHebb/mbvVpo="
         }
       ]
     },

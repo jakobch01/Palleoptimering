@@ -7,9 +7,21 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppIdentityDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection")));
 
-builder.Services.AddIdentity<IdentityUser, IdentityRole>()
-    .AddEntityFrameworkStores<AppIdentityDbContext>()
-    .AddDefaultTokenProviders();
+//builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+//  .AddEntityFrameworkStores<AppIdentityDbContext>()
+//   .AddDefaultTokenProviders();
+
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
+{
+    // Configure password settings
+    options.Password.RequireDigit = false;
+    options.Password.RequiredLength = 8;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireLowercase = true;
+    options.Password.RequiredUniqueChars = 0;
+})
+.AddEntityFrameworkStores<AppIdentityDbContext>().AddDefaultTokenProviders();
 
 builder.Services.AddControllersWithViews();
 
