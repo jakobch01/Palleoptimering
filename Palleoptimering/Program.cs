@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using Palleoptimering.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Migrations;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +27,15 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddDbContext<PalletDbContext>(opts => {
+	opts.UseSqlServer(
+	builder.Configuration["ConnectionStrings:DefaultConnection"]);
+});
+
+builder.Services.AddScoped<IPalletRepository, EFPalletRepository>();
+
+
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -38,6 +49,7 @@ else
 }
 
 app.UseStaticFiles();
+
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
@@ -45,5 +57,10 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=User}/{action=Login}/{id?}");
+
+app.MapDefaultControllerRoute();
+
+SeedData.EnsurePopulated(app);
+
 
 app.Run();

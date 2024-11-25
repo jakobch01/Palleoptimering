@@ -1,0 +1,75 @@
+﻿@model Palleoptimering.Models.Pallet
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+    <title>Redigere Palle</title>
+</head>
+<body>
+    <h5 class="bg-primary text-white text-center m-2 p-2">Redigere Palle</h5>
+    <form asp-action="Edit" method="post" class="m-2">
+        <div asp-validation-summary="All"></div>
+        <input type="hidden" asp-for="Id" />
+        <div class="form-group">
+            <label asp-for="PalletDescription" class="form-label">Palle beskrivelse:</label>
+            <input asp-for="PalletDescription" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Length" class="form-label">Længde:</label>
+            <input asp-for="Length" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Width" class="form-label">Bredde:</label>
+            <input asp-for="Width" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Height" class="form-label">Højde:</label>
+            <input asp-for="Height" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="PalletGroup" class="form-label">Palle gruppe:</label>
+            <input asp-for="PalletGroup" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="PalletType" class="form-label">Palle type:</label>
+            <input asp-for="PalletType" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Weight" class="form-label">Vægt:</label>
+            <input asp-for="Weight" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="MaxHeight" class="form-label">Max højde:</label>
+            <input asp-for="MaxHeight" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="MaxWeight" class="form-label">Max vægt:</label>
+            <input asp-for="MaxWeight" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Overmeasure" class="form-label">Overmål:</label>
+            <input asp-for="Overmeasure" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="AvailableSpaces" class="form-label">Antal pladser:</label>
+            <input asp-for="AvailableSpaces" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="SpecialPallet" class="form-label">Special Palle:</label>
+            <input asp-for="SpecialPallet" class="form-check-input" type="checkbox" />
+        </div>
+        <div class="form-group">
+            <label asp-for="SpaceBetweenElements" class="form-label">Luft mellem elementer:</label>
+            <input asp-for="SpaceBetweenElements" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Active" class="form-label">Aktiv:</label>
+            <input asp-for="Active" class="form-check-input" type="checkbox" />
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Gem</button>
+        <button type="button" class="btn btn-secondary mt-3" onclick="location.href='@Url.Action("ListPallets", "Home")'">Cancel</button>
+    </form>
+</body>
+</html>

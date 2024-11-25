@@ -5,29 +5,52 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  DOCKER_REGISTRY_SERVICE_CONNECTION: '<PalleoptimeringServiceConnection>'
-  IMAGE_NAME: 'Palleoptimering'
+  DOCKER_REGISTRY: 'docker.io'  # Docker Hub registry URL
+  DOCKER_USERNAME: 'jakobch01'  # Replace with your Docker Hub username
+  IMAGE_NAME: 'palleoptimering'  # Replace with your image name
+  TAG: '$(Build.BuildId)'  # Use the build ID as the tag
 
 steps:
 - task: UseDotNet@2
   inputs:
     packageType: 'sdk'
-    version: '5.x'
+    version: '8.x'
     installationPath: $(Agent.ToolsDirectory)/dotnet
 
 - task: DockerInstaller@0
   inputs:
-    dockerVersion: '18.06.0'
+    dockerVersion: '20.10.7'  # Specify the Docker version
 
-- script: docker build -t $(IMAGE_NAME) .
+# Step 1: Build the Docker image
+- script: docker build -t $(DOCKER_USERNAME)/$(IMAGE_NAME):$(TAG) .
   displayName: 'Build Docker Image'
 
-- script: docker tag $(IMAGE_NAME) $(DOCKER_REGISTRY_SERVICE_CONNECTION)/$(IMAGE_NAME):$(Build.BuildId)
-  displayName: 'Tag Image'
+# Step 2: Tag the Docker image
+- script: docker tag $(DOCKER_USERNAME)/$(IMAGE_NAME):$(TAG) $(DOCKER_USERNAME)/$(IMAGE_NAME):latest
+  displayName: 'Tag Docker Image with Latest'
 
-- script: docker push $(DOCKER_REGISTRY_SERVICE_CONNECTION)/$(IMAGE_NAME):$(Build.BuildId)
-  displayName: 'Push Image'
+# Step 3: Log in to Docker Hub (using the service connection)
+- task: Docker@2
+  inputs:
+    command: 'login'
+    containerRegistry: 'PalleoptimeringServiceConnection'  # Replace with your Docker Hub service connection name
+  displayName: 'Docker Hub Login'
 
+# Step 4: Push the image to Docker Hub
+- script: docker push $(DOCKER_USERNAME)/$(IMAGE_NAME):$(TAG)
+  displayName: 'Push Docker Image to Docker Hub'
+
+# Step 5: Push the 'latest' tag as well (optional)
+- script: docker push $(DOCKER_USERNAME)/$(IMAGE_NAME):latest
+  displayName: 'Push Docker Image (latest) to Docker Hub'
+
+# Step 6: Install Docker Compose
+- script: |
+    sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+    sudo chmod +x /usr/local/bin/docker-compose
+  displayName: 'Install Docker Compose'
+
+# Step 7: Run Docker containers using Docker Compose
 - script: |
     docker-compose -f docker-compose.yml up -d
   displayName: 'Run Docker Containers'
