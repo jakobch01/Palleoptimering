@@ -34,7 +34,11 @@ builder.Services.AddDbContext<PalletDbContext>(opts => {
 
 builder.Services.AddScoped<IPalletRepository, EFPalletRepository>();
 
-
+builder.Services.AddDbContext<PalletSettingsDbContext>(opts =>
+{
+    opts.UseSqlServer(
+     builder.Configuration["ConnectionStrings:DefaultConnection"]);
+});
 
 var app = builder.Build();
 

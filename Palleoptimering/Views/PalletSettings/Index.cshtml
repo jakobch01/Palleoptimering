@@ -1,0 +1,51 @@
+﻿@model Palleoptimering.Models.PalletSettings;
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Pallepakning</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+    <body>
+    <form asp-action="CreatePalletSettings" method="post" class="m-2">
+        <div asp-validation-summary="All"></div>
+        <div class="form-group">
+            <label asp-for="MaxLayers" class="form-label">Maks. lag:</label>
+            <input asp-for="MaxLayers" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="MaxSpace" class="form-label">Maks. plads:</label>
+            <input asp-for="MaxSpace" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="WeightAllowedToTurnElement" class="form-label">Tillad at vende op til maks. (kg):</label>
+            <input asp-for="WeightAllowedToTurnElement" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="HeightWidthFactor" class="form-label">Højde, bredde faktor(Bredde/Højde):</label>
+            <input asp-for="HeightWidthFactor" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="HeightWidthFactorOnlyForOneElement" class="form-label">Højde, bredde faktor kun for et element:</label>
+            <input asp-for="HeightWidthFactorOnlyForOneElement" class="form-check-input" type="checkbox" />
+        </div>
+        <div class="form-group">
+            <label asp-for="StackingMaxHeight" class="form-label">Tillad stabling op til maks. højde inkl. palle (mm):</label>
+            <input asp-for="StackingMaxHeight" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="EndPlate" class="form-label">Tillæg, montering af endeplade(mm):</label>
+            <input asp-for="EndPlate" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="AllowedStackingMaxWeight" class="form-label">Tillad stabling op til maks. element vægt:</label>
+            <input asp-for="AllowedStackingMaxWeight" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="AllowTurningOverMaxHeight" class="form-label">Tillad at vende geometri elementer over maks. højde:</label>
+            <input asp-for="AllowTurningOverMaxHeight" class="form-check-input" type="checkbox" />
+        </div>      
+        <button type="submit" class="btn btn-primary mt-3">Gem</button>
+        <button type="button" class="btn btn-primary mt-3" onclick="location.href='@Url.Action("Index", "Home")'">Afbryd</button>
+    </form>
+    </body>
+</html>
