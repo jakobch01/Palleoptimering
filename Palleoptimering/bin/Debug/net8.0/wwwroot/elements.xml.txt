@@ -1,0 +1,26 @@
+<Elements>
+    <Element>
+        <Id>1</Id>
+        <Length>50</Length>
+        <Width>30</Width>
+        <Height>40</Height>
+        <CanRotate>Ja</CanRotate>
+        <SpecialPallet>false</SpecialPallet>
+        <PalletType>Standard</PalletType>
+        <MaxPerPallet>5</MaxPerPallet>
+        <Group>Group1</Group>
+	<Weight>50</Weight>
+    </Element>
+    <Element>
+        <Id>2</Id>
+        <Length>70</Length>
+        <Width>40</Width>
+        <Height>50</Height>
+        <CanRotate>Skal</CanRotate>
+        <SpecialPallet>true</SpecialPallet>
+        <PalletType>Special</PalletType>
+        <MaxPerPallet>1</MaxPerPallet>
+        <Group>Group2</Group>
+	<Weight>120</Weight>
+    </Element>
+</Elements>

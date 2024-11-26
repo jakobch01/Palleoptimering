@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Q6ac7vFxx/hnhkulhSqUZ8ZnC4WFZ4Py4Sh4U+ygzw8=",
+  "Hash": "LPGlcaME+xYgL6qgG8EbsBFjKA1Wsk6q+zGvigk7a3A=",
   "Source": "Palleoptimering",
   "BasePath": "_content/Palleoptimering",
   "Mode": "Default",
@@ -16,6 +16,27 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\elements.xml.txt",
+      "SourceId": "Palleoptimering",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
+      "BasePath": "_content/Palleoptimering",
+      "RelativePath": "elements.xml#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1y494jtdhh",
+      "Integrity": "t761kECaRW6xTfHpzxqr0go1emMy2kF6D/RPRwwD6TE=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\elements.xml.txt"
+    },
     {
       "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
       "SourceId": "Palleoptimering",
@@ -2874,6 +2895,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "elements.xml.1y494jtdhh.txt",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\elements.xml.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "732"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t761kECaRW6xTfHpzxqr0go1emMy2kF6D/RPRwwD6TE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 26 Nov 2024 12:16:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1y494jtdhh"
+        },
+        {
+          "Name": "label",
+          "Value": "elements.xml.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t761kECaRW6xTfHpzxqr0go1emMy2kF6D/RPRwwD6TE="
+        }
+      ]
+    },
+    {
+      "Route": "elements.xml.txt",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\elements.xml.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "732"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t761kECaRW6xTfHpzxqr0go1emMy2kF6D/RPRwwD6TE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 26 Nov 2024 12:16:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t761kECaRW6xTfHpzxqr0go1emMy2kF6D/RPRwwD6TE="
+        }
+      ]
+    },
     {
       "Route": "lib/bootstrap/css/bootstrap.css",
       "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",

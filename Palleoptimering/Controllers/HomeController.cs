@@ -10,9 +10,6 @@ namespace Palleoptimering.Controllers
     public class HomeController : Controller
     {
 
-
-        [Authorize]
-
         private IPalletRepository repository;
 
         public HomeController(IPalletRepository repo)

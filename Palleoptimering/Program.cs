@@ -9,9 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppIdentityDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection")));
 
-//builder.Services.AddIdentity<IdentityUser, IdentityRole>()
-//  .AddEntityFrameworkStores<AppIdentityDbContext>()
-//   .AddDefaultTokenProviders();
+builder.Services.AddScoped<ElementService>();
+builder.Services.AddScoped<XmlElementLoader>();
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 {
@@ -55,6 +54,10 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=User}/{action=Login}/{id?}");
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Element}/{action=Index}/{id?}");
 
 app.MapDefaultControllerRoute();
 

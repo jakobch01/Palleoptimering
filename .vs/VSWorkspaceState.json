@@ -2,7 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Palleoptimering",
-    "\\Palleoptimering\\Controllers"
+    "\\Palleoptimering\\Controllers",
+    "\\Palleoptimering\\Models"
   ],
   "SelectedNode": "\\Palleoptimering.sln",
   "PreviewInSolutionExplorer": false

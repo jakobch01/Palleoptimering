@@ -1,0 +1,44 @@
+﻿@model List<Palleoptimering.Models.Element>
+
+@{
+    ViewData["Title"] = "Elementer";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form method="get">
+    <label for="sortOption">Sortér efter:</label>
+    <select id="sortOption" name="sortOption">
+        <option value="length">Længde</option>
+        <option value="weight">Vægt</option>
+    </select>
+    <button type="submit">Sorter</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Gruppe</th>
+            <th>Længde</th>
+            <th>Bredde</th>
+            <th>Højde</th>
+            <th>Rotér?</th>
+            <th>Palle Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var element in Model)
+        {
+            <tr>
+                <td>@element.ElementId</td>
+                <td>@element.Group</td>
+                <td>@element.Length</td>
+                <td>@element.Width</td>
+                <td>@element.Height</td>
+                <td>@element.CanRotate</td>
+                <td>@element.PalletType</td>
+            </tr>
+        }
+    </tbody>
+</table>

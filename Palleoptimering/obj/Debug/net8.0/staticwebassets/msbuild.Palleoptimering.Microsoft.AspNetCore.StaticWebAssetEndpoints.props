@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Palleoptimering/elements.xml.1y494jtdhh.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\elements.xml.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1y494jtdhh"},{"Name":"integrity","Value":"sha256-t761kECaRW6xTfHpzxqr0go1emMy2kF6D/RPRwwD6TE="},{"Name":"label","Value":"_content/Palleoptimering/elements.xml.txt"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"732"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022t761kECaRW6xTfHpzxqr0go1emMy2kF6D/RPRwwD6TE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 12:16:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Palleoptimering/elements.xml.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\elements.xml.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-t761kECaRW6xTfHpzxqr0go1emMy2kF6D/RPRwwD6TE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"732"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022t761kECaRW6xTfHpzxqr0go1emMy2kF6D/RPRwwD6TE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 12:16:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Palleoptimering/lib/bootstrap/css/bootstrap-grid.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-grid.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
