@@ -134,3 +134,4 @@ C:\Users\jakob\source\repos\Palleoptimering\Palleoptimering\obj\Debug\net8.0\ref
 C:\Users\jakob\source\repos\Palleoptimering\Palleoptimering\obj\Debug\net8.0\Palleoptimering.pdb
 C:\Users\jakob\source\repos\Palleoptimering\Palleoptimering\obj\Debug\net8.0\Palleoptimering.genruntimeconfig.cache
 C:\Users\jakob\source\repos\Palleoptimering\Palleoptimering\obj\Debug\net8.0\ref\Palleoptimering.dll
+C:\Users\jakob\source\repos\Palleoptimering\Palleoptimering\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

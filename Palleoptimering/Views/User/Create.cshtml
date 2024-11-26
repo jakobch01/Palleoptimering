@@ -1,0 +1,27 @@
+﻿@model Palleoptimering.Models.Register
+
+@{
+    ViewData["Title"] = "Opret Bruger";
+}
+
+<h2>Opret Bruger</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Username" class="control-label">Brugernavn:</label>
+        <input asp-for="Username" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Email" class="control-label">E-mail:</label>
+        <input asp-for="Email" type="email" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Password" class="control-label">Adgangskode:</label>
+        <input asp-for="Password" type="password" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ConfirmPassword" class="control-label">Bekræft adgangskode:</label>
+        <input asp-for="ConfirmPassword" type="password" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Opret</button>
+</form>

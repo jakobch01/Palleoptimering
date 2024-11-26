@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Palleoptimering.Models;
 using Palleoptimering.Models.ViewModels;
@@ -7,13 +9,13 @@ namespace Palleoptimering.Controllers
 {
     public class HomeController : Controller
     {
+
         private IPalletRepository repository;
 
         public HomeController(IPalletRepository repo)
         {
             repository = repo;
         }
-
         public IActionResult Index()
         {
             return View();
