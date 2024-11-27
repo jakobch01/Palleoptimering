@@ -3,7 +3,9 @@
     "",
     "\\Palleoptimering",
     "\\Palleoptimering\\Controllers",
-    "\\Palleoptimering\\Models"
+    "\\Palleoptimering\\Models",
+    "\\Palleoptimering\\Views",
+    "\\Palleoptimering\\Views\\Element"
   ],
   "SelectedNode": "\\Palleoptimering.sln",
   "PreviewInSolutionExplorer": false

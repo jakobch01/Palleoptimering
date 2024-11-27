@@ -549,6 +549,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
+      "Id": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\orders.xml",
+      "PackagePath": "staticwebassets\\orders.xml"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Palleoptimering.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

@@ -1,0 +1,30 @@
+﻿@model List<Palleoptimering.Models.Order>
+
+<h1>Ordrer</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ordre ID</th>
+            <th>Ordre Dato</th>
+            <th>Status</th>
+            <th>Elementer</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.OrderId</td>
+                <td>@order.OrderDate.ToString("yyyy-MM-dd")</td>
+                <td>@order.Status</td>
+                <td>
+                    @foreach (var elementId in order.ElementIds)
+                    {
+                        <span>@elementId </span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1644,5 +1644,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xTVl362rsvNFkaRWPC3IC\u002BYgYTCd507jlI7CDWeRG6o="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"78075"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022xTVl362rsvNFkaRWPC3IC\u002BYgYTCd507jlI7CDWeRG6o=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 Nov 2024 17:05:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Palleoptimering/orders.lapelgj021.xml">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\orders.xml'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lapelgj021"},{"Name":"integrity","Value":"sha256-c\u002BMcaERkVla0Vcw4w8CEZ0C6gjzlNckRmOJthAsi7fM="},{"Name":"label","Value":"_content/Palleoptimering/orders.xml"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"437"},{"Name":"Content-Type","Value":"text/xml"},{"Name":"ETag","Value":"\u0022c\u002BMcaERkVla0Vcw4w8CEZ0C6gjzlNckRmOJthAsi7fM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 27 Nov 2024 11:26:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Palleoptimering/orders.xml">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\orders.xml'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-c\u002BMcaERkVla0Vcw4w8CEZ0C6gjzlNckRmOJthAsi7fM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"437"},{"Name":"Content-Type","Value":"text/xml"},{"Name":"ETag","Value":"\u0022c\u002BMcaERkVla0Vcw4w8CEZ0C6gjzlNckRmOJthAsi7fM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 27 Nov 2024 11:26:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

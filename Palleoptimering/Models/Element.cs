@@ -23,7 +23,7 @@ namespace Palleoptimering.Models
             public int MaxPerPallet { get; set; }
             public string Group { get; set; }
             public int Weight { get; set; }
-
+            public Element() { }
             public Element(int elementId, int length, int width, int height, RotationOption canRotate, bool specialPallet, string palletType, int maxPerPallet, string group, int weight)
             {
                 ElementId = elementId;

@@ -11235,6 +11235,88 @@
           "Value": "sha256-nugTddld9zXpl2h5Zgh+0zahj9p1C3jOUjoeVjRuciU="
         }
       ]
+    },
+    {
+      "Route": "orders.lapelgj021.xml",
+      "AssetFile": "orders.xml",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c+McaERkVla0Vcw4w8CEZ0C6gjzlNckRmOJthAsi7fM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 11:26:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lapelgj021"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c+McaERkVla0Vcw4w8CEZ0C6gjzlNckRmOJthAsi7fM="
+        },
+        {
+          "Name": "label",
+          "Value": "orders.xml"
+        }
+      ]
+    },
+    {
+      "Route": "orders.xml",
+      "AssetFile": "orders.xml",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c+McaERkVla0Vcw4w8CEZ0C6gjzlNckRmOJthAsi7fM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 11:26:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c+McaERkVla0Vcw4w8CEZ0C6gjzlNckRmOJthAsi7fM="
+        }
+      ]
     }
   ]
 }

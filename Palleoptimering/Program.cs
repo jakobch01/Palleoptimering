@@ -12,6 +12,8 @@ builder.Services.AddDbContext<AppIdentityDbContext>(options =>
 builder.Services.AddScoped<ElementService>();
 builder.Services.AddScoped<XmlElementLoader>();
 
+builder.Services.AddSingleton<XmlOrderLoader>();
+
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 {
     // Configure password settings
