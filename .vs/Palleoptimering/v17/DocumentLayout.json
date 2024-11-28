@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\models\\efpalletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\models\\efpalletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\views\\palletsettings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\views\\palletsettings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\controllers\\palletsettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\controllers\\palletsettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\models\\palletsettingsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\models\\palletsettingsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\models\\palletdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\models\\palletdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\models\\ipalletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\models\\ipalletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\models\\ipalletsettingsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\models\\ipalletsettingsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\palleoptimering.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\palleoptimering.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\models\\palletsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\models\\palletsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -31,12 +55,44 @@
       "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\models\\pallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\models\\pallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\palleoptimering.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\palleoptimering.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\models\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\models\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\views\\home\\createpallet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\views\\home\\createpallet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\migrations\\20241122120923_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\migrations\\20241122120923_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\migrations\\20241121152600_initialidentitysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\migrations\\20241121152600_initialidentitysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\models\\pallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\models\\pallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -50,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +114,137 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PalletSettingsDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Models\\PalletSettingsDbContext.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Models\\PalletSettingsDbContext.cs",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Models\\PalletSettingsDbContext.cs",
+              "RelativeToolTip": "Palleoptimering\\Models\\PalletSettingsDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:05:46.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Program.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Program.cs",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Program.cs",
+              "RelativeToolTip": "Palleoptimering\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:10:36.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EFPalletRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Models\\EFPalletRepository.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Models\\EFPalletRepository.cs",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Models\\EFPalletRepository.cs",
+              "RelativeToolTip": "Palleoptimering\\Models\\EFPalletRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:17:33.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PalletSettingsController.cs",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Controllers\\PalletSettingsController.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Controllers\\PalletSettingsController.cs",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Controllers\\PalletSettingsController.cs",
+              "RelativeToolTip": "Palleoptimering\\Controllers\\PalletSettingsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA3wBQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:07:16.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\PalletSettings\\Index.cshtml",
+              "RelativeDocumentMoniker": "Palleoptimering\\Views\\PalletSettings\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\PalletSettings\\Index.cshtml",
+              "RelativeToolTip": "Palleoptimering\\Views\\PalletSettings\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T12:56:42.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPalletRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Models\\IPalletRepository.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Models\\IPalletRepository.cs",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Models\\IPalletRepository.cs",
+              "RelativeToolTip": "Palleoptimering\\Models\\IPalletRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:17:23.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPalletSettingsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Models\\IPalletSettingsRepository.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Models\\IPalletSettingsRepository.cs",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Models\\IPalletSettingsRepository.cs",
+              "RelativeToolTip": "Palleoptimering\\Models\\IPalletSettingsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:19:00.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\appsettings.json",
+              "RelativeDocumentMoniker": "Palleoptimering\\appsettings.json",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\appsettings.json",
+              "RelativeToolTip": "Palleoptimering\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-25T23:10:36.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "PalletDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Models\\PalletDbContext.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Models\\PalletDbContext.cs",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Models\\PalletDbContext.cs",
+              "RelativeToolTip": "Palleoptimering\\Models\\PalletDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:15:00.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Palleoptimering\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Palleoptimering\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T23:10:36.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Palleoptimering\\Views\\_ViewImports.cshtml",
@@ -66,11 +252,12 @@
               "RelativeToolTip": "Palleoptimering\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T12:04:14.949Z"
+              "WhenOpened": "2024-11-25T23:10:36.799Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Palleoptimering\\Views\\_ViewStart.cshtml",
@@ -78,36 +265,64 @@
               "RelativeToolTip": "Palleoptimering\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T12:03:38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\appsettings.json",
-              "RelativeDocumentMoniker": "Palleoptimering\\appsettings.json",
-              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\appsettings.json",
-              "RelativeToolTip": "Palleoptimering\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-11T11:35:39Z",
+              "WhenOpened": "2024-11-25T23:10:36.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Pallet.cs",
-              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Models\\Pallet.cs",
-              "RelativeDocumentMoniker": "Palleoptimering\\Models\\Pallet.cs",
-              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Models\\Pallet.cs",
-              "RelativeToolTip": "Palleoptimering\\Models\\Pallet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T12:08:07.431Z"
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Palleoptimering\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Palleoptimering\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T23:10:36.717Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
+              "Title": "PalletSettings.cs",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Models\\PalletSettings.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Models\\PalletSettings.cs",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Models\\PalletSettings.cs",
+              "RelativeToolTip": "Palleoptimering\\Models\\PalletSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T12:59:16.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Palleoptimering\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "Palleoptimering\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T12:58:31.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Models\\SeedData.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Models\\SeedData.cs",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Models\\SeedData.cs",
+              "RelativeToolTip": "Palleoptimering\\Models\\SeedData.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:17:53.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Palleoptimering.csproj",
               "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Palleoptimering.csproj",
               "RelativeDocumentMoniker": "Palleoptimering\\Palleoptimering.csproj",
@@ -115,60 +330,89 @@
               "RelativeToolTip": "Palleoptimering\\Palleoptimering.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-11T11:36:43.755Z"
+              "WhenOpened": "2024-11-25T23:10:36.796Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 18,
+              "Title": "CreatePallet.cshtml",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\Home\\CreatePallet.cshtml",
+              "RelativeDocumentMoniker": "Palleoptimering\\Views\\Home\\CreatePallet.cshtml",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\Home\\CreatePallet.cshtml",
+              "RelativeToolTip": "Palleoptimering\\Views\\Home\\CreatePallet.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T12:58:35.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Palleoptimering\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Palleoptimering\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T11:57:45.611Z",
+              "WhenOpened": "2024-11-25T23:10:36.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Palleoptimering\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Palleoptimering\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T12:05:47.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Palleoptimering\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Palleoptimering\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T12:07:09.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Program.cs",
-              "RelativeDocumentMoniker": "Palleoptimering\\Program.cs",
-              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Program.cs",
-              "RelativeToolTip": "Palleoptimering\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "20241122120923_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Migrations\\20241122120923_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Migrations\\20241122120923_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Migrations\\20241122120923_InitialCreate.cs",
+              "RelativeToolTip": "Palleoptimering\\Migrations\\20241122120923_InitialCreate.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T11:36:08.182Z"
+              "WhenOpened": "2024-11-26T11:54:23.232Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Palleoptimering\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T11:39:20.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20241121152600_InitialIdentitySetup.cs",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Migrations\\20241121152600_InitialIdentitySetup.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Migrations\\20241121152600_InitialIdentitySetup.cs",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Migrations\\20241121152600_InitialIdentitySetup.cs",
+              "RelativeToolTip": "Palleoptimering\\Migrations\\20241121152600_InitialIdentitySetup.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T11:49:08.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Pallet.cs",
+              "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Models\\Pallet.cs",
+              "RelativeDocumentMoniker": "Palleoptimering\\Models\\Pallet.cs",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Models\\Pallet.cs",
+              "RelativeToolTip": "Palleoptimering\\Models\\Pallet.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA0wBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:10:36.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Palleoptimering\\Properties\\launchSettings.json",
@@ -176,7 +420,7 @@
               "RelativeToolTip": "Palleoptimering\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAIwAwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-11T11:35:45.75Z"
+              "WhenOpened": "2024-11-25T23:10:36.803Z"
             }
           ]
         }

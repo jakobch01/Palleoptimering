@@ -1,21 +1,50 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width" />
-	<title>Palle Optimering</title>
-	<link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Palle Optimering</title>
+    <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
-	<div class="bg-dark text-white p-2">
-		<span class="navbar-brand ml-2">PALLE OPTIMERING</span>
-	</div>
-	<div class="row m-1 p-1">
-		<div id="Paller" class="col-3">
-			Put something useful here later
-		</div>
-		<div class="col-9">
-			@RenderBody()
-		</div>
-	</div>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand ml-2">PALLE OPTIMERING</span>
+            <!-- Toggler/collapsing button for mobile view -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav float-right">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="@Url.Action("Logout", "User")">Logout</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="@Url.Action("Login", "User")">Login</a>
+                        </li>
+                    }
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page content -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-9">
+                @RenderBody() <!-- This is where the content will be rendered -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
