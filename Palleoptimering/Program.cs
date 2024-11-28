@@ -35,6 +35,11 @@ builder.Services.AddDbContext<PalletDbContext>(opts => {
 
 builder.Services.AddScoped<IPalletRepository, EFPalletRepository>();
 
+builder.Services.AddDbContext<PalletSettingsDbContext>(opts =>
+{
+    opts.UseSqlServer(
+     builder.Configuration["ConnectionStrings:DefaultConnection"]);
+});
 
 var app = builder.Build();
 
@@ -49,6 +54,7 @@ else
 }
 
 app.UseStaticFiles();
+
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
@@ -57,9 +63,11 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=User}/{action=Login}/{id?}");
 
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Element}/{action=Index}/{id?}");
+
 
 app.MapDefaultControllerRoute();
 
