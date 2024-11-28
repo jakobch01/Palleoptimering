@@ -3,7 +3,7 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
-      "Route": "elements.xml.1y494jtdhh.txt",
+      "Route": "elements.xml.01p7lvnve7.txt",
       "AssetFile": "elements.xml.txt",
       "Selectors": [],
       "ResponseHeaders": [
@@ -17,7 +17,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "732"
+          "Value": "1446"
         },
         {
           "Name": "Content-Type",
@@ -25,21 +25,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"t761kECaRW6xTfHpzxqr0go1emMy2kF6D/RPRwwD6TE=\""
+          "Value": "\"dLunFIiW9nJJUkSj8cudZyDNPb5Ry+Na5EVELvO4P2o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 12:16:19 GMT"
+          "Value": "Wed, 27 Nov 2024 12:32:46 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1y494jtdhh"
+          "Value": "01p7lvnve7"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-t761kECaRW6xTfHpzxqr0go1emMy2kF6D/RPRwwD6TE="
+          "Value": "sha256-dLunFIiW9nJJUkSj8cudZyDNPb5Ry+Na5EVELvO4P2o="
         },
         {
           "Name": "label",
@@ -62,7 +62,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "732"
+          "Value": "1446"
         },
         {
           "Name": "Content-Type",
@@ -70,17 +70,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"t761kECaRW6xTfHpzxqr0go1emMy2kF6D/RPRwwD6TE=\""
+          "Value": "\"dLunFIiW9nJJUkSj8cudZyDNPb5Ry+Na5EVELvO4P2o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 12:16:19 GMT"
+          "Value": "Wed, 27 Nov 2024 12:32:46 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-t761kECaRW6xTfHpzxqr0go1emMy2kF6D/RPRwwD6TE="
+          "Value": "sha256-dLunFIiW9nJJUkSj8cudZyDNPb5Ry+Na5EVELvO4P2o="
         }
       ]
     },
@@ -11237,7 +11237,7 @@
       ]
     },
     {
-      "Route": "orders.lapelgj021.xml",
+      "Route": "orders.9xauz6n75x.xml",
       "AssetFile": "orders.xml",
       "Selectors": [],
       "ResponseHeaders": [
@@ -11251,7 +11251,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "437"
+          "Value": "753"
         },
         {
           "Name": "Content-Type",
@@ -11259,21 +11259,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"c+McaERkVla0Vcw4w8CEZ0C6gjzlNckRmOJthAsi7fM=\""
+          "Value": "\"zZ19eiUV7HhCn3xBjGRFTAJGpWYki8hkAOV5trRTzn8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 11:26:05 GMT"
+          "Value": "Wed, 27 Nov 2024 12:31:37 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lapelgj021"
+          "Value": "9xauz6n75x"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-c+McaERkVla0Vcw4w8CEZ0C6gjzlNckRmOJthAsi7fM="
+          "Value": "sha256-zZ19eiUV7HhCn3xBjGRFTAJGpWYki8hkAOV5trRTzn8="
         },
         {
           "Name": "label",
@@ -11296,7 +11296,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "437"
+          "Value": "753"
         },
         {
           "Name": "Content-Type",
@@ -11304,17 +11304,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"c+McaERkVla0Vcw4w8CEZ0C6gjzlNckRmOJthAsi7fM=\""
+          "Value": "\"zZ19eiUV7HhCn3xBjGRFTAJGpWYki8hkAOV5trRTzn8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 11:26:05 GMT"
+          "Value": "Wed, 27 Nov 2024 12:31:37 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-c+McaERkVla0Vcw4w8CEZ0C6gjzlNckRmOJthAsi7fM="
+          "Value": "sha256-zZ19eiUV7HhCn3xBjGRFTAJGpWYki8hkAOV5trRTzn8="
         }
       ]
     }

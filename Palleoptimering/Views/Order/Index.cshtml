@@ -8,6 +8,7 @@
             <th>Ordre ID</th>
             <th>Ordre Dato</th>
             <th>Status</th>
+            <th>Antal Elementer</th>
             <th>Elementer</th>
         </tr>
     </thead>
@@ -18,6 +19,7 @@
                 <td>@order.OrderId</td>
                 <td>@order.OrderDate.ToString("yyyy-MM-dd")</td>
                 <td>@order.Status</td>
+                <td>@order.ElementIds.Count</td>
                 <td>
                     @foreach (var elementId in order.ElementIds)
                     {

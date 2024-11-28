@@ -23,4 +23,28 @@
         <Group>Group2</Group>
 	<Weight>120</Weight>
     </Element>
+        <Element>
+        <Id>3</Id>
+        <Length>70</Length>
+        <Width>30</Width>
+        <Height>40</Height>
+        <CanRotate>Ja</CanRotate>
+        <SpecialPallet>true</SpecialPallet>
+        <PalletType>Special</PalletType>
+        <MaxPerPallet>1</MaxPerPallet>
+        <Group>Group3</Group>
+	<Weight>120</Weight>
+    </Element>
+        <Element>
+        <Id>4</Id>
+        <Length>80</Length>
+        <Width>20</Width>
+        <Height>50</Height>
+        <CanRotate>Skal</CanRotate>
+        <SpecialPallet>true</SpecialPallet>
+        <PalletType>Special</PalletType>
+        <MaxPerPallet>1</MaxPerPallet>
+        <Group>Group2</Group>
+	<Weight>120</Weight>
+    </Element>
 </Elements>
