@@ -1,16 +1,28 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Palleoptimering/elements.tsnz7fe7bp.xml">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\elements.xml'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tsnz7fe7bp"},{"Name":"integrity","Value":"sha256-w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno="},{"Name":"label","Value":"_content/Palleoptimering/elements.xml"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"380"},{"Name":"Content-Type","Value":"text/xml"},{"Name":"ETag","Value":"\u0022w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 12:41:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Palleoptimering/elements.xml">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\elements.xml'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"380"},{"Name":"Content-Type","Value":"text/xml"},{"Name":"ETag","Value":"\u0022w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 12:41:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Palleoptimering/elements.xml.01p7lvnve7.txt">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\elements.xml.txt'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"01p7lvnve7"},{"Name":"integrity","Value":"sha256-dLunFIiW9nJJUkSj8cudZyDNPb5Ry\u002BNa5EVELvO4P2o="},{"Name":"label","Value":"_content/Palleoptimering/elements.xml.txt"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1446"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022dLunFIiW9nJJUkSj8cudZyDNPb5Ry\u002BNa5EVELvO4P2o=\u0022"},{"Name":"Last-Modified","Value":"Wed, 27 Nov 2024 12:32:46 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1446"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022dLunFIiW9nJJUkSj8cudZyDNPb5Ry\u002BNa5EVELvO4P2o=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 12:55:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Palleoptimering/elements.xml.txt">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\elements.xml.txt'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dLunFIiW9nJJUkSj8cudZyDNPb5Ry\u002BNa5EVELvO4P2o="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1446"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022dLunFIiW9nJJUkSj8cudZyDNPb5Ry\u002BNa5EVELvO4P2o=\u0022"},{"Name":"Last-Modified","Value":"Wed, 27 Nov 2024 12:32:46 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1446"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022dLunFIiW9nJJUkSj8cudZyDNPb5Ry\u002BNa5EVELvO4P2o=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 12:55:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Palleoptimering/lib/bootstrap/css/bootstrap-grid.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap-grid.css'))</AssetFile>

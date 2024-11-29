@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OcgnlZz1FR7gI2w3Zt/2ZNx9XaFAJ0aOD+/rCGefhRU=",
+  "Hash": "pkqjsB+2ml42/y3HXQLOvNlrbwhMxjlks7s7/4SHqNc=",
   "Source": "Palleoptimering",
   "BasePath": "_content/Palleoptimering",
   "Mode": "Default",
@@ -16,6 +16,27 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\elements.xml",
+      "SourceId": "Palleoptimering",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
+      "BasePath": "_content/Palleoptimering",
+      "RelativePath": "elements#[.{fingerprint}]?.xml",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tsnz7fe7bp",
+      "Integrity": "w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\elements.xml"
+    },
     {
       "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\elements.xml.txt",
       "SourceId": "Palleoptimering",
@@ -2917,6 +2938,88 @@
   ],
   "Endpoints": [
     {
+      "Route": "elements.tsnz7fe7bp.xml",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\elements.xml",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 12:41:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tsnz7fe7bp"
+        },
+        {
+          "Name": "label",
+          "Value": "elements.xml"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno="
+        }
+      ]
+    },
+    {
+      "Route": "elements.xml",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\elements.xml",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 12:41:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno="
+        }
+      ]
+    },
+    {
       "Route": "elements.xml.01p7lvnve7.txt",
       "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\elements.xml.txt",
       "Selectors": [],
@@ -2939,7 +3042,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 12:32:46 GMT"
+          "Value": "Fri, 29 Nov 2024 12:55:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2984,7 +3087,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 12:32:46 GMT"
+          "Value": "Fri, 29 Nov 2024 12:55:01 GMT"
         },
         {
           "Name": "Cache-Control",

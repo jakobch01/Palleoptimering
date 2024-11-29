@@ -5,7 +5,8 @@
     "\\Palleoptimering\\Controllers",
     "\\Palleoptimering\\Models",
     "\\Palleoptimering\\Views",
-    "\\Palleoptimering\\Views\\Element"
+    "\\Palleoptimering\\Views\\Element",
+    "\\Palleoptimering\\Views\\Shared"
   ],
   "SelectedNode": "\\Palleoptimering.sln",
   "PreviewInSolutionExplorer": false

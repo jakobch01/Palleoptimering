@@ -1,0 +1,14 @@
+<Elements>
+    <Element>
+        <Id>1</Id>
+        <Length>100</Length>
+        <Width>50</Width>
+        <Height>200</Height>
+        <CanRotate>True</CanRotate>
+        <SpecialPallet>True</SpecialPallet>
+        <PalletType>TypeA</PalletType>
+        <MaxPerPallet>10</MaxPerPallet>
+        <Group>1</Group>
+        <Weight>500</Weight>
+    </Element>
+</Elements>

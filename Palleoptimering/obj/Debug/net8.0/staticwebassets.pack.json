@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\elements.xml",
+      "PackagePath": "staticwebassets\\elements.xml"
+    },
+    {
       "Id": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\elements.xml.txt",
       "PackagePath": "staticwebassets\\elements.xml.txt"
     },

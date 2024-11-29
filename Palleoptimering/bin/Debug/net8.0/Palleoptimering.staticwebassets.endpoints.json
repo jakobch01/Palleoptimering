@@ -3,6 +3,88 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
+      "Route": "elements.tsnz7fe7bp.xml",
+      "AssetFile": "elements.xml",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 12:41:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tsnz7fe7bp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno="
+        },
+        {
+          "Name": "label",
+          "Value": "elements.xml"
+        }
+      ]
+    },
+    {
+      "Route": "elements.xml",
+      "AssetFile": "elements.xml",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 12:41:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno="
+        }
+      ]
+    },
+    {
       "Route": "elements.xml.01p7lvnve7.txt",
       "AssetFile": "elements.xml.txt",
       "Selectors": [],
@@ -29,7 +111,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 12:32:46 GMT"
+          "Value": "Fri, 29 Nov 2024 12:55:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -74,7 +156,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 12:32:46 GMT"
+          "Value": "Fri, 29 Nov 2024 12:55:01 GMT"
         }
       ],
       "EndpointProperties": [
