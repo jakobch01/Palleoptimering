@@ -10,7 +10,7 @@ namespace Palleoptimering.Models
             try
             {
                 // Brug den faktiske sti til din XML-fil
-                string filePath = @"C:\Users\UMUTCAN\OneDrive - Erhvervsakademi MidtVest\Dokumenter\GitHub\Palleoptimering\Palleoptimering\wwwroot\elements.xml.txt";
+                string filePath = @"C:\Users\UMUTCAN\OneDrive - Erhvervsakademi MidtVest\Dokumenter\GitHub\Palleoptimering\Palleoptimering\wwwroot\elements.xml";
 
                 // Kontrollér om filen eksisterer
                 if (!File.Exists(filePath))

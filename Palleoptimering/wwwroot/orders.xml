@@ -1,26 +1,29 @@
 <ArrayOrder>
-  <Order>
-    <OrderId>1</OrderId>
-    <OrderDate>2024-11-27</OrderDate>
-    <Status>Pending</Status>
-    <ElementIds>
-      <ElementId>1</ElementId>
-    </ElementIds>
-  </Order>
-  <Order>
-    <OrderId>2</OrderId>
-    <OrderDate>2024-11-28</OrderDate>
-    <Status>Completed</Status>
-    <ElementIds>
-      <ElementId>2</ElementId>
-    </ElementIds>
-  </Order>
+	<Order>
+		<OrderId>1</OrderId>
+		<OrderDate>2024-11-27</OrderDate>
+		<Status>Pending</Status>
+		<ElementIds>
+			<ElementId>1</ElementId>
+			<ElementId>2</ElementId>
+		</ElementIds>
+	</Order>
+	<Order>
+		<OrderId>2</OrderId>
+		<OrderDate>2024-11-28</OrderDate>
+		<Status>Completed</Status>
+		<ElementIds>
+			<ElementId>3</ElementId>
+			<ElementId>4</ElementId>
+		</ElementIds>
+	</Order>
 	<Order>
 		<OrderId>3</OrderId>
 		<OrderDate>2024-11-28</OrderDate>
 		<Status>Completed</Status>
 		<ElementIds>
-			<ElementId>3</ElementId>
+			<ElementId>5</ElementId>
+			<ElementId>6</ElementId>
 		</ElementIds>
 	</Order>
 	<Order>
@@ -28,7 +31,62 @@
 		<OrderDate>2024-11-28</OrderDate>
 		<Status>Completed</Status>
 		<ElementIds>
+			<ElementId>7</ElementId>
+			<ElementId>8</ElementId>
+		</ElementIds>
+	</Order>
+	<Order>
+		<OrderId>5</OrderId>
+		<OrderDate>2024-11-29</OrderDate>
+		<Status>Pending</Status>
+		<ElementIds>
+			<ElementId>9</ElementId>
+			<ElementId>10</ElementId>
+		</ElementIds>
+	</Order>
+	<Order>
+		<OrderId>6</OrderId>
+		<OrderDate>2024-11-29</OrderDate>
+		<Status>Completed</Status>
+		<ElementIds>
 			<ElementId>1</ElementId>
+			<ElementId>3</ElementId>
+		</ElementIds>
+	</Order>
+	<Order>
+		<OrderId>7</OrderId>
+		<OrderDate>2024-11-30</OrderDate>
+		<Status>Pending</Status>
+		<ElementIds>
+			<ElementId>2</ElementId>
+			<ElementId>4</ElementId>
+		</ElementIds>
+	</Order>
+	<Order>
+		<OrderId>8</OrderId>
+		<OrderDate>2024-11-30</OrderDate>
+		<Status>Completed</Status>
+		<ElementIds>
+			<ElementId>5</ElementId>
+			<ElementId>7</ElementId>
+		</ElementIds>
+	</Order>
+	<Order>
+		<OrderId>9</OrderId>
+		<OrderDate>2024-12-01</OrderDate>
+		<Status>Pending</Status>
+		<ElementIds>
+			<ElementId>6</ElementId>
+			<ElementId>9</ElementId>
+		</ElementIds>
+	</Order>
+	<Order>
+		<OrderId>10</OrderId>
+		<OrderDate>2024-12-01</OrderDate>
+		<Status>Completed</Status>
+		<ElementIds>
+			<ElementId>3</ElementId>
+			<ElementId>10</ElementId>
 		</ElementIds>
 	</Order>
 </ArrayOrder>

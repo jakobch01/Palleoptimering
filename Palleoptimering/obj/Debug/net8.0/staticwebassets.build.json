@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pkqjsB+2ml42/y3HXQLOvNlrbwhMxjlks7s7/4SHqNc=",
+  "Hash": "o8wqNKLuWG9sjxuIikYqdt8l1hxWCiBGn9YFQcLpdVs=",
   "Source": "Palleoptimering",
   "BasePath": "_content/Palleoptimering",
   "Mode": "Default",
@@ -31,32 +31,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "tsnz7fe7bp",
-      "Integrity": "w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno=",
+      "Fingerprint": "1jesyhcwsj",
+      "Integrity": "jT7VCChmSoJ9Hgo4VLij0jEYkHfRYpLPMK5odHST1FI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\elements.xml"
-    },
-    {
-      "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\elements.xml.txt",
-      "SourceId": "Palleoptimering",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\",
-      "BasePath": "_content/Palleoptimering",
-      "RelativePath": "elements.xml#[.{fingerprint}]?.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "01p7lvnve7",
-      "Integrity": "dLunFIiW9nJJUkSj8cudZyDNPb5Ry+Na5EVELvO4P2o=",
-      "CopyToOutputDirectory": "Always",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\elements.xml.txt"
     },
     {
       "Identity": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
@@ -2929,8 +2908,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9xauz6n75x",
-      "Integrity": "zZ19eiUV7HhCn3xBjGRFTAJGpWYki8hkAOV5trRTzn8=",
+      "Fingerprint": "y2aino08uu",
+      "Integrity": "itpBO2dEBHxHJ83c2ZnMEbEomXAvLCFWgIqATso5+2g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\orders.xml"
@@ -2938,7 +2917,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "elements.tsnz7fe7bp.xml",
+      "Route": "elements.1jesyhcwsj.xml",
       "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\elements.xml",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2948,7 +2927,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "380"
+          "Value": "2956"
         },
         {
           "Name": "Content-Type",
@@ -2956,11 +2935,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno=\""
+          "Value": "\"jT7VCChmSoJ9Hgo4VLij0jEYkHfRYpLPMK5odHST1FI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 29 Nov 2024 12:41:49 GMT"
+          "Value": "Mon, 02 Dec 2024 09:48:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2970,7 +2949,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tsnz7fe7bp"
+          "Value": "1jesyhcwsj"
         },
         {
           "Name": "label",
@@ -2978,7 +2957,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno="
+          "Value": "sha256-jT7VCChmSoJ9Hgo4VLij0jEYkHfRYpLPMK5odHST1FI="
         }
       ]
     },
@@ -2993,7 +2972,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "380"
+          "Value": "2956"
         },
         {
           "Name": "Content-Type",
@@ -3001,11 +2980,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno=\""
+          "Value": "\"jT7VCChmSoJ9Hgo4VLij0jEYkHfRYpLPMK5odHST1FI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 29 Nov 2024 12:41:49 GMT"
+          "Value": "Mon, 02 Dec 2024 09:48:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3015,89 +2994,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno="
-        }
-      ]
-    },
-    {
-      "Route": "elements.xml.01p7lvnve7.txt",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\elements.xml.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1446"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dLunFIiW9nJJUkSj8cudZyDNPb5Ry+Na5EVELvO4P2o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 29 Nov 2024 12:55:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "01p7lvnve7"
-        },
-        {
-          "Name": "label",
-          "Value": "elements.xml.txt"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-dLunFIiW9nJJUkSj8cudZyDNPb5Ry+Na5EVELvO4P2o="
-        }
-      ]
-    },
-    {
-      "Route": "elements.xml.txt",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\elements.xml.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1446"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dLunFIiW9nJJUkSj8cudZyDNPb5Ry+Na5EVELvO4P2o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 29 Nov 2024 12:55:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dLunFIiW9nJJUkSj8cudZyDNPb5Ry+Na5EVELvO4P2o="
+          "Value": "sha256-jT7VCChmSoJ9Hgo4VLij0jEYkHfRYpLPMK5odHST1FI="
         }
       ]
     },
@@ -14254,51 +14151,6 @@
       ]
     },
     {
-      "Route": "orders.9xauz6n75x.xml",
-      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\orders.xml",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "753"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zZ19eiUV7HhCn3xBjGRFTAJGpWYki8hkAOV5trRTzn8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 12:31:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9xauz6n75x"
-        },
-        {
-          "Name": "label",
-          "Value": "orders.xml"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zZ19eiUV7HhCn3xBjGRFTAJGpWYki8hkAOV5trRTzn8="
-        }
-      ]
-    },
-    {
       "Route": "orders.xml",
       "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\orders.xml",
       "Selectors": [],
@@ -14309,7 +14161,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "753"
+          "Value": "2054"
         },
         {
           "Name": "Content-Type",
@@ -14317,11 +14169,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zZ19eiUV7HhCn3xBjGRFTAJGpWYki8hkAOV5trRTzn8=\""
+          "Value": "\"itpBO2dEBHxHJ83c2ZnMEbEomXAvLCFWgIqATso5+2g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 12:31:37 GMT"
+          "Value": "Mon, 02 Dec 2024 09:52:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14331,7 +14183,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zZ19eiUV7HhCn3xBjGRFTAJGpWYki8hkAOV5trRTzn8="
+          "Value": "sha256-itpBO2dEBHxHJ83c2ZnMEbEomXAvLCFWgIqATso5+2g="
+        }
+      ]
+    },
+    {
+      "Route": "orders.y2aino08uu.xml",
+      "AssetFile": "C:\\Users\\UMUTCAN\\OneDrive - Erhvervsakademi MidtVest\\Dokumenter\\GitHub\\Palleoptimering\\Palleoptimering\\wwwroot\\orders.xml",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"itpBO2dEBHxHJ83c2ZnMEbEomXAvLCFWgIqATso5+2g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 09:52:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y2aino08uu"
+        },
+        {
+          "Name": "label",
+          "Value": "orders.xml"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-itpBO2dEBHxHJ83c2ZnMEbEomXAvLCFWgIqATso5+2g="
         }
       ]
     }

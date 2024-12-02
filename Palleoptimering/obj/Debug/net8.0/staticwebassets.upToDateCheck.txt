@@ -1,5 +1,4 @@
 wwwroot\elements.xml
-wwwroot\elements.xml.txt
 wwwroot\lib\bootstrap\css\bootstrap.css
 wwwroot\lib\bootstrap\css\bootstrap.css.map
 wwwroot\lib\bootstrap\css\bootstrap.min.css

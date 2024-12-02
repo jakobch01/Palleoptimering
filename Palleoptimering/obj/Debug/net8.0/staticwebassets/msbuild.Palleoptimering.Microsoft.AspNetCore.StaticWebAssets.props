@@ -12,29 +12,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tsnz7fe7bp</Fingerprint>
-      <Integrity>w/ktpKxlkbP5HbvI5fjgOoR9blni3y2ZpolT0oRZfno=</Integrity>
+      <Fingerprint>1jesyhcwsj</Fingerprint>
+      <Integrity>jT7VCChmSoJ9Hgo4VLij0jEYkHfRYpLPMK5odHST1FI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\elements.xml'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\elements.xml.txt'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Palleoptimering</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Palleoptimering</BasePath>
-      <RelativePath>elements.xml.txt</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>01p7lvnve7</Fingerprint>
-      <Integrity>dLunFIiW9nJJUkSj8cudZyDNPb5Ry+Na5EVELvO4P2o=</Integrity>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\elements.xml.txt'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\css\bootstrap.css'))">
       <SourceType>Package</SourceType>
@@ -2496,8 +2478,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9xauz6n75x</Fingerprint>
-      <Integrity>zZ19eiUV7HhCn3xBjGRFTAJGpWYki8hkAOV5trRTzn8=</Integrity>
+      <Fingerprint>y2aino08uu</Fingerprint>
+      <Integrity>itpBO2dEBHxHJ83c2ZnMEbEomXAvLCFWgIqATso5+2g=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\orders.xml'))</OriginalItemSpec>
