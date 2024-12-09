@@ -1,36 +1,47 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Palle Optimering</title>
-    <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <span class="navbar-brand ml-2">PALLE OPTIMERING</span>
-            <!-- Toggler/collapsing button for mobile view -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="/">PALLE OPTIMERING</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav float-right">
-                    @if (User.Identity.IsAuthenticated)
-                    {
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/Order">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/Home/ListPallets">Pallet</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/PalletSettings">Indstillinger til pallepakning</a>
+                        @if (User.Identity.IsAuthenticated)
+                        {
                         <li class="nav-item">
                             <a class="nav-link text-white" href="@Url.Action("Logout", "User")">Logout</a>
                         </li>
-                    }
-                    else
-                    {
+                        }
+                        else
+                        {
                         <li class="nav-item">
                             <a class="nav-link text-white" href="@Url.Action("Login", "User")">Login</a>
                         </li>
-                    }
+                        }
+                    </li>
                 </ul>
-
             </div>
         </div>
     </nav>
@@ -38,13 +49,15 @@
     <!-- Page content -->
     <div class="container mt-3">
         <div class="row">
+           
+            <!-- Højre sektion -->
             <div class="col-md-9">
-                @RenderBody() <!-- This is where the content will be rendered -->
+                @RenderBody() <!-- Hovedindhold -->
             </div>
         </div>
     </div>
 
     <!-- Bootstrap JS -->
-    <script src="/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
