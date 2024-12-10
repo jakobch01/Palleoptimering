@@ -9,7 +9,7 @@ WORKDIR /src
 
 COPY ["Palleoptimering/Palleoptimering.csproj", "Palleoptimering/"]
 RUN dotnet restore "Palleoptimering/Palleoptimering.csproj"
-COPY . .
+COPY . . 
 WORKDIR "/src/Palleoptimering"
 RUN dotnet build "Palleoptimering.csproj" -c Release -o /app/build
 
@@ -18,7 +18,16 @@ FROM build AS publish
 WORKDIR "/src/Palleoptimering"
 RUN dotnet publish "Palleoptimering.csproj" -c Release -o /app/publish
 
-# Use the base image to run the app
+# Use the SDK image again for migration
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS migrate
+WORKDIR /src
+COPY --from=publish /app/publish /app/publish
+COPY . .
+
+# Run the migrations
+RUN dotnet ef database update --no-build --project /src/Palleoptimering/Palleoptimering.csproj
+
+# Use the base image for final deployment
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
