@@ -1,6 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
+    <AssemblyTitle>Palleoptimering</AssemblyTitle>
+    <AssemblyCompany>Palleoptimering</AssemblyCompany>
+    <AssemblyProduct>Palleoptimering</AssemblyProduct>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -17,6 +21,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Polly" Version="8.5.0" />
   </ItemGroup>
 
 </Project>

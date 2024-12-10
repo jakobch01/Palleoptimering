@@ -8,5 +8,6 @@ namespace Palleoptimering.Models
 			: base(options) { }
 
 		public DbSet<Pallet> Pallets => Set<Pallet>();
+		
 	}
 }
