@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Orders>
+  <Order>
+    <OrderId>1</OrderId>
+    <Status>Pending</Status>
+    <OrderDate>2024-12-09T16:16:07.0484597+01:00</OrderDate>
+  </Order>
+</Orders>

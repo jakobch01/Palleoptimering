@@ -6,7 +6,9 @@
     "\\Palleoptimering\\Models",
     "\\Palleoptimering\\Views",
     "\\Palleoptimering\\Views\\Element",
-    "\\Palleoptimering\\Views\\Shared"
+    "\\Palleoptimering\\Views\\Shared",
+    "\\Palleoptimering\\wwwroot",
+    "\\PalletTest"
   ],
   "SelectedNode": "\\Palleoptimering.sln",
   "PreviewInSolutionExplorer": false
