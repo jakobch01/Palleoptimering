@@ -26,6 +26,11 @@ COPY . .
 
 # Run the migrations
 RUN dotnet ef database update --no-build --project /src/Palleoptimering/Palleoptimering.csproj
+RUN dotnet ef database update --no-build --project /src/Palleoptimering/Palleoptimering.csproj --context "PalletDbContext"
+RUN dotnet ef database update --no-build --project /src/Palleoptimering/Palleoptimering.csproj --context "PalletSettingsDbContext"
+RUN dotnet ef database update --no-build --project /src/Palleoptimering/Palleoptimering.csproj --context "AppIdentityDbContext"
+
+
 
 # Use the base image for final deployment
 FROM base AS final

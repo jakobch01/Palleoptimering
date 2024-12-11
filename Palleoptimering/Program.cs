@@ -8,7 +8,6 @@ try
 {
 	var builder = WebApplication.CreateBuilder(args);
 
-	var logger = LoggerFactory.Create(builder => builder.AddConsole()).CreateLogger<Program>();
 
 
 	// Load configuration
@@ -16,7 +15,6 @@ try
 
 	var defaultConnection = "DefaultConnection";
 
-	logger.LogInformation("Loading database configurations.");
 
 	// Configure database contexts
 	builder.Services.AddDbContext<AppIdentityDbContext>(options =>
@@ -49,7 +47,6 @@ try
 	builder.Services.AddControllersWithViews();
 
 	var app = builder.Build();
-	logger.LogInformation("Application is starting up.");
 
 	// Configure the HTTP request pipeline
 	if (app.Environment.IsDevelopment())
@@ -68,7 +65,7 @@ try
 	app.UseAuthentication();
 	app.UseAuthorization();
 
-	logger.LogInformation("Setting up the default controller route.");
+	
 
 
 	app.MapControllerRoute(
@@ -84,9 +81,34 @@ try
 		TimeSpan.FromSeconds(15)
 		}).Execute(() =>
 		{
-			logger.LogInformation("Ensuring database population.");
 			SeedData.EnsurePopulated(app);
 		});
+
+
+	using var scope = app.Services.CreateScope();
+	var services = scope.ServiceProvider;
+	var logger = services.GetRequiredService<ILogger<Program>>();
+
+	try
+	{
+		// Ensure migrations are applied for each context
+		var identityContext = services.GetRequiredService<AppIdentityDbContext>();
+		await identityContext.Database.MigrateAsync();
+
+		var palletContext = services.GetRequiredService<PalletDbContext>();
+		await palletContext.Database.MigrateAsync();
+
+		var palletSettingsContext = services.GetRequiredService<PalletSettingsDbContext>();
+		await palletSettingsContext.Database.MigrateAsync();
+
+		logger.LogInformation("Migrations applied successfully.");
+	}
+	catch (Exception ex)
+	{
+		logger.LogError($"An error occurred while applying migrations: {ex.Message}");
+		throw;
+	}
+
 
 	app.Run();
 

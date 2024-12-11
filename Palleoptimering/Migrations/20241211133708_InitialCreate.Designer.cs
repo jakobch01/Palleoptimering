@@ -12,8 +12,8 @@ using Palleoptimering.Models;
 namespace Palleoptimering.Migrations
 {
     [DbContext(typeof(AppIdentityDbContext))]
-    [Migration("20241121152600_InitialIdentitySetup")]
-    partial class InitialIdentitySetup
+    [Migration("20241211133708_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

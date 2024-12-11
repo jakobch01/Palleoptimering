@@ -2,10 +2,10 @@
 
 #nullable disable
 
-namespace Palleoptimering.Migrations
+namespace Palleoptimering.Migrations.PalletDb
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class PalletInitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

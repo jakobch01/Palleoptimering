@@ -11,8 +11,8 @@ using Palleoptimering.Models;
 namespace Palleoptimering.Migrations.PalletSettingsDb
 {
     [DbContext(typeof(PalletSettingsDbContext))]
-    [Migration("20241126173705_CreatePalletSettingsTable")]
-    partial class CreatePalletSettingsTable
+    [Migration("20241211133800_PalletSettingsInitialCreate")]
+    partial class PalletSettingsInitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

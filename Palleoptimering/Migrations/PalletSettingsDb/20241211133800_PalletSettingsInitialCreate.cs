@@ -5,7 +5,7 @@
 namespace Palleoptimering.Migrations.PalletSettingsDb
 {
     /// <inheritdoc />
-    public partial class CreatePalletSettingsTable : Migration
+    public partial class PalletSettingsInitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
