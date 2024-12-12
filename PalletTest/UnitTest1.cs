@@ -16,7 +16,7 @@ namespace PalletTest
         public void CreateOrder_ShouldWriteToXML()
         {
             // Arrange
-            string filePath = "orders.xml";
+            string filePath = "orders.xml";s
             XDocument doc = new XDocument(new XElement("Orders"));
             doc.Save(filePath);
 

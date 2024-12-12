@@ -73,5 +73,28 @@ app.MapDefaultControllerRoute();
 
 SeedData.EnsurePopulated(app);
 
+using var scope = app.Services.CreateScope();
+var services = scope.ServiceProvider;
+var logger = services.GetRequiredService<ILogger<Program>>();
+
+try
+{
+    // Ensure migrations are applied for each context
+    var identityContext = services.GetRequiredService<AppIdentityDbContext>();
+    await identityContext.Database.MigrateAsync();
+
+    var palletContext = services.GetRequiredService<PalletDbContext>();
+    await palletContext.Database.MigrateAsync();
+
+    var palletSettingsContext = services.GetRequiredService<PalletSettingsDbContext>();
+    await palletSettingsContext.Database.MigrateAsync();
+
+    logger.LogInformation("Migrations applied successfully.");
+}
+catch (Exception ex)
+{
+    logger.LogError($"An error occurred while applying migrations: {ex.Message}");
+    throw;
+}
 
 app.Run();

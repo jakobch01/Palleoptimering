@@ -3,6 +3,7 @@
     "",
     "\\Palleoptimering",
     "\\Palleoptimering\\Controllers",
+    "\\Palleoptimering\\Migrations",
     "\\Palleoptimering\\Models",
     "\\Palleoptimering\\Views",
     "\\Palleoptimering\\Views\\Element",
@@ -10,6 +11,6 @@
     "\\Palleoptimering\\wwwroot",
     "\\PalletTest"
   ],
-  "SelectedNode": "\\Palleoptimering.sln",
+  "SelectedNode": "\\Palleoptimering\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
