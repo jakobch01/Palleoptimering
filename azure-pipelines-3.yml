@@ -1,0 +1,28 @@
+trigger:
+  - main  # Angiver, at pipelinen kører på pushes til main-grenen
+
+pool:
+  vmImage: 'windows-latest'  # Brug en Windows agent til at køre build og tests
+
+steps:
+  # Installer .NET SDK
+  - task: UseDotNet@2
+    inputs:
+      packageType: 'sdk'
+      version: '7.x'  # Brug den version, du har brug for
+      installationPath: $(Agent.ToolsDirectory)/dotnet
+
+  # Restore NuGet pakker
+  - script: |
+      dotnet restore
+    displayName: 'Restore Dependencies'
+
+  # Byg løsningen i Release-konfiguration
+  - script: |
+      dotnet build --configuration Release
+    displayName: 'Build Solution'
+
+  # Kør tests
+  - script: |
+      dotnet test --verbosity normal  # Kør tests
+    displayName: 'Run Tests'
