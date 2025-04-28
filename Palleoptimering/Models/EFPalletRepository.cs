@@ -2,9 +2,9 @@
 {
 	public class EFPalletRepository : IPalletRepository
 	{
-		private PalletDbContext _db;
+		private AppDbContext _db;
 
-		public EFPalletRepository(PalletDbContext db) 
+		public EFPalletRepository(AppDbContext db) 
 		{
 			_db = db;
 		}

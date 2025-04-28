@@ -9,28 +9,27 @@
 </head>
 <body>
     <div class="text-center m-2">
-        <h2 class="text-center">
-            Liste med alle palle
-        </h2>
+        <h2 class="text-center">Liste med alle paller</h2>
+
         <table class="table table-bordered table-striped table-sm">
             <thead>
                 <tr>
-                    <th>Palle Id</th>
-                    <th>Palle beskrivelse</th>
-                    <th>Længde</th>
-                    <th>Bredde</th>
-                    <th>Højde</th>
+                    <th>Id</th>
+                    <th>Beskrivelse</th>
+                    <th>Længde (mm)</th>
+                    <th>Bredde (mm)</th>
+                    <th>Højde (mm)</th>
+                    <th>Overmål (mm)</th>
+                    <th>Vægt (kg)</th>
+                    <th>Maks. højde (mm)</th>
+                    <th>Maks. vægt (kg)</th>
+                    <th>Antal pladser</th>
                     <th>Pallegruppe</th>
                     <th>Palletype</th>
-                    <th>Vægt</th>
-                    <th>Max højde</th>
-                    <th>Max vægt</th>
-                    <th>Overmål</th>
-                    <th>Antal pladser</th>
-                    <th>Special palle</th>
-                    <th>Luft mellem elementer</th>
+                    <th>Special</th>
+                    <th>Luft (mm)</th>
                     <th>Aktiv</th>
-                    <th>Handlinger</th> 
+                    <th>Handlinger</th>
                 </tr>
             </thead>
             <tbody>
@@ -38,20 +37,20 @@
                 {
                     <tr>
                         <td>@p.Id</td>
-                        <td>@p.PalletDescription</td>
+                        <td>@p.Description</td>
                         <td>@p.Length</td>
                         <td>@p.Width</td>
                         <td>@p.Height</td>
-                        <td>@p.PalletGroup</td>
-                        <td>@p.PalletType</td>
+                        <td>@p.Overhang</td>
                         <td>@p.Weight</td>
                         <td>@p.MaxHeight</td>
                         <td>@p.MaxWeight</td>
-                        <td>@p.Overmeasure</td>
                         <td>@p.AvailableSpaces</td>
-                        <td>@p.SpecialPallet</td>
-                        <td>@p.SpaceBetweenElements</td>
-                        <td>@p.Active</td>
+                        <td>@p.Group</td>
+                        <td>@p.Type</td>
+                        <td>@(p.IsSpecial ? "Ja" : "Nej")</td>
+                        <td>@p.SpacingBetweenElements</td>
+                        <td>@(p.IsActive ? "Ja" : "Nej")</td>
                         <td>
                             <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-id="@p.Id">Rediger</a>
                             <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@p.Id">Slet</a>
@@ -60,6 +59,7 @@
                 }
             </tbody>
         </table>
+
         <a class="btn btn-primary" asp-action="CreatePallet">Opret palle</a>
     </div>
 </body>

@@ -1,58 +1,59 @@
 ﻿using Microsoft.EntityFrameworkCore;
+
 namespace Palleoptimering.Models
 {
-	public static class SeedData
-	{
-		public static void EnsurePopulated(IApplicationBuilder app)
-		{
-			PalletDbContext context = app.ApplicationServices
-				.CreateScope().ServiceProvider.GetService<PalletDbContext>();
+    public static class SeedData
+    {
+        public static void EnsurePopulated(IApplicationBuilder app)
+        {
+            AppDbContext context = app.ApplicationServices
+                .CreateScope().ServiceProvider.GetService<AppDbContext>();
 
-			if (context.Database.GetPendingMigrations().Any())
-			{
-				context.Database.Migrate();
-			}
+            if (context.Database.GetPendingMigrations().Any())
+            {
+                context.Database.Migrate();
+            }
 
-			if (!context.Pallets.Any()) 
-			{
-				context.Pallets.AddRange(
-					new Pallet
-					{
-						PalletDescription = "Noget",
-						Length = 10,
-						Width = 10,
-						Height = 10,
-						PalletGroup = 1,
-						PalletType = "træ",
-						Weight = 10,
-						MaxHeight = 20,
-						MaxWeight = 20,
-						Overmeasure = 20,
-						AvailableSpaces = 3,
-						SpecialPallet = false,
-						SpaceBetweenElements = 3,
-						Active = true
-					},
-					new Pallet
-					{
-						PalletDescription = "Noget2",
-						Length = 20,
-						Width = 20,
-						Height = 20,
-						PalletGroup = 2,
-						PalletType = "metal",
-						Weight = 20,
-						MaxHeight = 40,
-						MaxWeight = 40,
-						Overmeasure = 40,
-						AvailableSpaces = 6,
-						SpecialPallet = false,
-						SpaceBetweenElements = 6,
-						Active = true
-					}
-					);
-				context.SaveChanges();
-			}
-		}
-	}
+            if (!context.Pallets.Any())
+            {
+                context.Pallets.AddRange(
+                    new Pallet
+                    {
+                        Description = "Noget",
+                        Length = 1200,
+                        Width = 800,
+                        Height = 150,
+                        Group = PalletGroup.Standard80,
+                        Type = PalletType.Wooden,
+                        Weight = 25,
+                        MaxHeight = 1800,
+                        MaxWeight = 1000,
+                        Overhang = 10,
+                        AvailableSpaces = 5,
+                        IsSpecial = false,
+                        SpacingBetweenElements = 10,
+                        IsActive = true
+                    },
+                    new Pallet
+                    {
+                        Description = "Noget2",
+                        Length = 1000,
+                        Width = 1000,
+                        Height = 200,
+                        Group = PalletGroup.Industrial75,
+                        Type = PalletType.Metal,
+                        Weight = 30,
+                        MaxHeight = 2000,
+                        MaxWeight = 1200,
+                        Overhang = 15,
+                        AvailableSpaces = 4,
+                        IsSpecial = true,
+                        SpacingBetweenElements = 15,
+                        IsActive = true
+                    }
+                );
+                context.SaveChanges();
+            }
+        }
+    }
 }

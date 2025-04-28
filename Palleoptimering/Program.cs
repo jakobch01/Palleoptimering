@@ -20,14 +20,12 @@ try
 	builder.Services.AddDbContext<AppIdentityDbContext>(options =>
 		options.UseSqlServer(configuration.GetConnectionString("IdentityConnection")));
 
-	builder.Services.AddDbContext<PalletDbContext>(options =>
-		options.UseSqlServer(configuration.GetConnectionString(defaultConnection)));
 
-	builder.Services.AddDbContext<PalletSettingsDbContext>(options =>
-		options.UseSqlServer(configuration.GetConnectionString(defaultConnection)));
+    builder.Services.AddDbContext<AppDbContext>(options =>
+        options.UseSqlServer(configuration.GetConnectionString(defaultConnection)));
 
-	// Configure identity
-	builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
+    // Configure identity
+    builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 	{
 		// Configure password settings
 		options.Password.RequireDigit = false;
@@ -95,11 +93,9 @@ try
 		var identityContext = services.GetRequiredService<AppIdentityDbContext>();
 		await identityContext.Database.MigrateAsync();
 
-		var palletContext = services.GetRequiredService<PalletDbContext>();
-		await palletContext.Database.MigrateAsync();
+		var appContext = services.GetRequiredService<AppDbContext>();
+		await appContext.Database.MigrateAsync();
 
-		var palletSettingsContext = services.GetRequiredService<PalletSettingsDbContext>();
-		await palletSettingsContext.Database.MigrateAsync();
 
 		logger.LogInformation("Migrations applied successfully.");
 	}

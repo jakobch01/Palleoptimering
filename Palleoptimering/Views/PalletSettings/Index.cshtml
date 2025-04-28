@@ -1,51 +1,78 @@
-﻿@model Palleoptimering.Models.PalletSettings;
+﻿@using Palleoptimering.Models
+@model Palleoptimering.Models.PalletSettings
 <!DOCTYPE html>
+<html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Pallepakning</title>
     <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
 </head>
-    <body>
+<body>
     <form asp-action="CreatePalletSettings" method="post" class="m-2">
-        <div asp-validation-summary="All"></div>
+        <div asp-validation-summary="All" class="text-danger"></div>
+
         <div class="form-group">
-            <label asp-for="MaxLayers" class="form-label">Maks. lag:</label>
+            <label asp-for="MaxLayers" class="form-label"></label>
             <input asp-for="MaxLayers" class="form-control" />
         </div>
+
         <div class="form-group">
-            <label asp-for="MaxSpace" class="form-label">Maks. plads:</label>
+            <label asp-for="MaxSpace" class="form-label"></label>
             <input asp-for="MaxSpace" class="form-control" />
         </div>
+
         <div class="form-group">
-            <label asp-for="WeightAllowedToTurnElement" class="form-label">Tillad at vende op til maks. (kg):</label>
-            <input asp-for="WeightAllowedToTurnElement" class="form-control" />
+            <label asp-for="MaxWeightAllowedToRotate" class="form-label"></label>
+            <input asp-for="MaxWeightAllowedToRotate" class="form-control" />
         </div>
+
         <div class="form-group">
-            <label asp-for="HeightWidthFactor" class="form-label">Højde, bredde faktor(Bredde/Højde):</label>
+            <label asp-for="HeightWidthFactor" class="form-label"></label>
             <input asp-for="HeightWidthFactor" class="form-control" />
         </div>
+
         <div class="form-group">
-            <label asp-for="HeightWidthFactorOnlyForOneElement" class="form-label">Højde, bredde faktor kun for et element:</label>
-            <input asp-for="HeightWidthFactorOnlyForOneElement" class="form-check-input" type="checkbox" />
+            <label asp-for="HeightWidthFactorOnlyForSingleElements" class="form-label"></label>
+            <input asp-for="HeightWidthFactorOnlyForSingleElements" class="form-check-input" type="checkbox" />
         </div>
+
         <div class="form-group">
-            <label asp-for="StackingMaxHeight" class="form-label">Tillad stabling op til maks. højde inkl. palle (mm):</label>
-            <input asp-for="StackingMaxHeight" class="form-control" />
+            <label asp-for="MaxStackingHeight" class="form-label"></label>
+            <input asp-for="MaxStackingHeight" class="form-control" />
         </div>
+
         <div class="form-group">
-            <label asp-for="EndPlate" class="form-label">Tillæg, montering af endeplade(mm):</label>
-            <input asp-for="EndPlate" class="form-control" />
+            <label asp-for="EndPlateAddition" class="form-label"></label>
+            <input asp-for="EndPlateAddition" class="form-control" />
         </div>
+
         <div class="form-group">
-            <label asp-for="AllowedStackingMaxWeight" class="form-label">Tillad stabling op til maks. element vægt:</label>
-            <input asp-for="AllowedStackingMaxWeight" class="form-control" />
+            <label asp-for="MaxAllowedStackingWeight" class="form-label"></label>
+            <input asp-for="MaxAllowedStackingWeight" class="form-control" />
         </div>
+
         <div class="form-group">
-            <label asp-for="AllowTurningOverMaxHeight" class="form-label">Tillad at vende geometri elementer over maks. højde:</label>
-            <input asp-for="AllowTurningOverMaxHeight" class="form-check-input" type="checkbox" />
-        </div>      
+            <label asp-for="AllowRotationWhenExceedingMaxHeight" class="form-label"></label>
+            <input asp-for="AllowRotationWhenExceedingMaxHeight" class="form-check-input" type="checkbox" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="RowDistribution" class="form-label"></label>
+            <select asp-for="RowDistribution" class="form-control" asp-items="Html.GetEnumSelectList<RowDistributionType>()"></select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="MaxOverhang" class="form-label"></label>
+            <input asp-for="MaxOverhang" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SpacingBetweenElements" class="form-label"></label>
+            <input asp-for="SpacingBetweenElements" class="form-control" />
+        </div>
+
         <button type="submit" class="btn btn-primary mt-3">Gem</button>
-        <button type="button" class="btn btn-primary mt-3" onclick="location.href='@Url.Action("Index", "Home")'">Afbryd</button>
+        <button type="button" class="btn btn-secondary mt-3" onclick="location.href='@Url.Action("Index", "Home")'">Afbryd</button>
     </form>
-    </body>
-</html> 
+</body>
+</html>

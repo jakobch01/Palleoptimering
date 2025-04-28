@@ -6,46 +6,44 @@ namespace Palleoptimering.Controllers
 {
     public class PalletSettingsController : Controller
     {
-        private readonly PalletSettingsDbContext _context;
-        public PalletSettingsController(PalletSettingsDbContext context) 
-        { 
+        private readonly AppDbContext _context;
+
+        public PalletSettingsController(AppDbContext context)
+        {
             _context = context;
         }
 
-        public IActionResult Index()
+        // GET: Vis eksisterende palleindstillinger
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var settings = await _context.PalletSettings.FirstOrDefaultAsync();
+            return View(settings ?? new PalletSettings());
         }
 
+        // POST: Gem ændringer
         [HttpPost]
-        public async Task<IActionResult> CreatePalletSettings(PalletSettings model)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Index(PalletSettings model)
         {
-            if (ModelState.IsValid) 
+            if (!ModelState.IsValid)
             {
-                var existingPalletSettings = await _context.PalletSettings
-                    .FirstOrDefaultAsync(p => p.Id == model.Id);
-                if (existingPalletSettings != null)
-                {
-                    existingPalletSettings.MaxLayers = model.MaxLayers;
-                    existingPalletSettings.MaxSpace = model.MaxSpace;
-                    existingPalletSettings.WeightAllowedToTurnElement = model.WeightAllowedToTurnElement;
-                    existingPalletSettings.HeightWidthFactor = model.HeightWidthFactor;
-                    existingPalletSettings.HeightWidthFactorOnlyForOneElement = model.HeightWidthFactorOnlyForOneElement;
-                    existingPalletSettings.StackingMaxHeight = model.StackingMaxHeight;
-                    existingPalletSettings.EndPlate = model.EndPlate;
-                    existingPalletSettings.AllowedStackingMaxWeight = model.AllowedStackingMaxWeight;
-                    existingPalletSettings.AllowTurningOverMaxHeight = model.AllowTurningOverMaxHeight;
-                    _context.PalletSettings.Update(existingPalletSettings);
-
-                } else
-                {
-                    _context.PalletSettings.Add(model);
-                }
-
-                await _context.SaveChangesAsync();
-                return RedirectToAction("Index", "Home");
+                return View(model);
             }
-            return View(model);
+
+            var existingSettings = await _context.PalletSettings.FirstOrDefaultAsync();
+
+            if (existingSettings != null)
+            {
+                _context.Entry(existingSettings).CurrentValues.SetValues(model);
+            }
+            else
+            {
+                await _context.PalletSettings.AddAsync(model);
+            }
+
+            await _context.SaveChangesAsync();
+            TempData["Success"] = "Indstillingerne blev gemt.";
+            return RedirectToAction(nameof(Index));
         }
     }
 }

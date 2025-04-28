@@ -1,0 +1,33 @@
+﻿@using Palleoptimering.Models
+@model List<Order>
+
+<h2>Orders</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Customer</th>
+            <th>Elements</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.Customer</td>
+                <td>@order.Elements.Count</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<form asp-action="GeneratePalletPlan" method="post">
+    <button type="submit">Generate Pallet Packing Plan</button>
+</form>
+
+@if (TempData["PalletPlan"] != null)
+{
+    <pre>@TempData["PalletPlan"]</pre>
+}
