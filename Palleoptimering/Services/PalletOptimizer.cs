@@ -88,7 +88,7 @@ namespace Palleoptimering.Services
             var newLayer = result.CurrentLayers + 1;
 
             if (element.IsGeometric && result.Elements.Any())
-                return false; // kan ikke stables ovenpå geometriske
+                return false; 
 
             if (newHeight > result.Pallet.MaxHeight)
                 return false;
@@ -118,7 +118,7 @@ namespace Palleoptimering.Services
             result.CurrentWeight += element.Weight;
 
             if (result.Elements.Count % 2 == 0)
-                result.CurrentLayers++; // Forenklet laglogik: tæller hvert andet element som nyt lag
+                result.CurrentLayers++; 
         }
 
         private bool ShouldRotate(Element element, Pallet pallet)
