@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\views\\order\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\views\\order\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\services\\palletoptimizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\services\\palletoptimizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\services\\palletoptimizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\services\\palletoptimizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\views\\order\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|solutionrelative:palleoptimering\\views\\order\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED344D7B-BBFE-408F-ACF9-4C8168A6938A}|Palleoptimering\\Palleoptimering.csproj|c:\\users\\jakob\\source\\repos\\palleoptimering\\palleoptimering\\models\\domain\\optimizationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,12 +94,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Result.cshtml",
               "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\Order\\Result.cshtml",
               "RelativeDocumentMoniker": "Palleoptimering\\Views\\Order\\Result.cshtml",
-              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\Order\\Result.cshtml*",
-              "RelativeToolTip": "Palleoptimering\\Views\\Order\\Result.cshtml*",
+              "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Views\\Order\\Result.cshtml",
+              "RelativeToolTip": "Palleoptimering\\Views\\Order\\Result.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-08T19:36:33.203Z",
@@ -178,20 +178,20 @@
               "RelativeDocumentMoniker": "Palleoptimering\\Controllers\\OrderController.cs",
               "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Controllers\\OrderController.cs",
               "RelativeToolTip": "Palleoptimering\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAYwE8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAcwDgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T11:41:27.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PalletOptimizer.cs",
               "DocumentMoniker": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Services\\PalletOptimizer.cs",
               "RelativeDocumentMoniker": "Palleoptimering\\Services\\PalletOptimizer.cs",
               "ToolTip": "C:\\Users\\jakob\\source\\repos\\Palleoptimering\\Palleoptimering\\Services\\PalletOptimizer.cs",
               "RelativeToolTip": "Palleoptimering\\Services\\PalletOptimizer.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAADwv0UAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvxoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T11:40:55.269Z",
               "EditorCaption": ""

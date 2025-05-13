@@ -30,14 +30,13 @@ namespace Palleoptimering.Controllers
                 return View(model);
             }
 
+            // Opdatere settings hvis en findes i databasen
             var existingSettings = await _context.PalletSettings.FirstOrDefaultAsync();
 
             if (existingSettings != null)
             {
-                // Bevar ID'et fra eksisterende settings
                 model.Id = existingSettings.Id;
 
-                // Opdater resten
                 _context.Entry(existingSettings).CurrentValues.SetValues(model);
             }
             else
