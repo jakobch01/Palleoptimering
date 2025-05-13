@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Palleoptimering.Models;
+using Palleoptimering.Models.DataAccess;
+using Palleoptimering.Models.Domain;
 
 namespace Palleoptimering.Controllers
 {
@@ -20,7 +21,6 @@ namespace Palleoptimering.Controllers
             return View(settings ?? new PalletSettings());
         }
 
-        // POST: Gem ændringer
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Index(PalletSettings model)
@@ -34,6 +34,10 @@ namespace Palleoptimering.Controllers
 
             if (existingSettings != null)
             {
+                // Bevar ID'et fra eksisterende settings
+                model.Id = existingSettings.Id;
+
+                // Opdater resten
                 _context.Entry(existingSettings).CurrentValues.SetValues(model);
             }
             else

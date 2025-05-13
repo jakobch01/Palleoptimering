@@ -1,4 +1,4 @@
-﻿namespace Palleoptimering.Models
+﻿namespace Palleoptimering.Models.DataAccess
 {
     public interface IPalletSettingsRepository
     {

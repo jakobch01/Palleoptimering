@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel;
 
-namespace Palleoptimering.Models
+namespace Palleoptimering.Models.Domain
 {
     public class Pallet
     {
@@ -75,7 +75,7 @@ namespace Palleoptimering.Models
         public int Area => Width * Length;
 
         [DisplayName("Volumen")]
-        public decimal Volume => (Width * Length * Height) / 1000000m; // i m³
+        public decimal Volume => Width * Length * Height / 1000000m; // i m³
 
         [DisplayName("Maks. elementhøjde")]
         public int MaxElementHeight => MaxHeight.HasValue ? MaxHeight.Value - Height : int.MaxValue;

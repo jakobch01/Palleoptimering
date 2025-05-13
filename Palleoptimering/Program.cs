@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Identity;
-using Palleoptimering.Models;
 using Microsoft.EntityFrameworkCore;
 using Polly;
 using Microsoft.Data.SqlClient;
+using Palleoptimering.Models.DataAccess;
 
 try
 {

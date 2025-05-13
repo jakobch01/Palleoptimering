@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Palleoptimering.Models;
+using Palleoptimering.Models.Identity;
 using System.Threading.Tasks;
 
 namespace Palleoptimering.Controllers

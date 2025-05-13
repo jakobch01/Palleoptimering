@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Palleoptimering.Models
+namespace Palleoptimering.Models.DataAccess
 {
     public class AppIdentityDbContext : IdentityDbContext<IdentityUser>
     {

@@ -12,8 +12,8 @@ using Palleoptimering.Models.DataAccess;
 namespace Palleoptimering.Migrations.AppDb
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250420112139_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250507074019_AddSeriesToElement")]
+    partial class AddSeriesToElement
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -41,11 +41,6 @@ namespace Palleoptimering.Migrations.AppDb
 
                     b.Property<bool>("IsGeometric")
                         .HasColumnType("bit");
-
-                    b.Property<string>("Mark")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int?>("MaxElementsPerPallet")
                         .HasColumnType("int");

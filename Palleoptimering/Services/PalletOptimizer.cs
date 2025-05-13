@@ -1,90 +1,148 @@
-﻿using Palleoptimering.Models;
+﻿using Palleoptimering.Models.Domain;
 
 namespace Palleoptimering.Services
 {
     public class PalletOptimizer
     {
-        public List<PlacedElement> Optimize(Pallet pallet, List<Element> elements, PalletSettings settings)
+        private readonly List<Pallet> _availablePallets;
+        private readonly PalletSettings _settings;
+
+        public PalletOptimizer(List<Pallet> pallets, PalletSettings settings)
         {
-            var placedElements = new List<PlacedElement>();
-            int currentLayer = 0;
-            int currentX = 0;
-            int currentY = 0;
-            int layerHeight = 0;
-
-            // 1. Sortér elementer baseret på strategi
-            var sortedElements = elements
-                .Where(e => CanPlaceOnPallet(e, pallet, settings))
-                .OrderByDescending(e => settings.RowDistribution == RowDistributionType.LongestOutside ? e.Depth : e.Weight)
-                .ToList();
-
-            foreach (var element in sortedElements)
-            {
-                bool fitsNormal = Fits(element.Width, element.Depth, currentX, currentY, pallet.Width, pallet.Length);
-                bool canRotate = settings.MaxWeightAllowedToRotate >= element.Weight && element.Rotation != RotationBehavior.NotAllowed;
-                bool fitsRotated = canRotate && Fits(element.Depth, element.Width, currentX, currentY, pallet.Width, pallet.Length);
-
-                bool placed = false;
-                if (fitsNormal || fitsRotated)
-                {
-                    int w = fitsNormal ? element.Width : element.Depth;
-                    int d = fitsNormal ? element.Depth : element.Width;
-
-                    placedElements.Add(new PlacedElement
-                    {
-                        Element = element,
-                        X = currentX,
-                        Y = currentY,
-                        Layer = currentLayer,
-                        Rotated = !fitsNormal
-                    });
-
-                    currentX += w + settings.SpacingBetweenElements;
-                    layerHeight = Math.Max(layerHeight, element.Height);
-                    placed = true;
-                }
-
-                if (!placed)
-                {
-                    // Gå til ny række eller nyt lag
-                    currentX = 0;
-                    currentY += layerHeight + settings.SpacingBetweenElements;
-
-                    if (currentY >= pallet.Length)
-                    {
-                        currentLayer++;
-                        currentY = 0;
-                        if (currentLayer >= settings.MaxLayers)
-                            break;
-                    }
-                    layerHeight = 0;
-                }
-            }
-
-            return placedElements;
+            _availablePallets = pallets.Where(p => p.IsActive).ToList();
+            _settings = settings;
         }
 
-        private bool Fits(int w, int d, int x, int y, int palletW, int palletL)
+		public OptimizationResult Optimize(List<Element> elements)
+		{
+			var results = new OptimizationResult();
+			var groupedElements = elements.GroupBy(e => e.OptimizationGroup);
+
+			foreach (var group in groupedElements)
+			{
+				var sorted = group
+					.OrderBy(e => e.Series)
+					.ThenBy(e => e.Rotation)
+					.ThenBy(e => e.Height)
+					.ThenBy(e => e.Weight)
+					.ToList();
+
+				foreach (var element in sorted)
+				{
+					bool placed = false;
+
+					foreach (var result in results.PackedPallets)
+					{
+						if (CanPlaceOnPallet(result, element))
+						{
+							PlaceOnPallet(result, element);
+							placed = true;
+							break;
+						}
+					}
+
+					if (!placed)
+					{
+						var pallet = GetBestFittingPallet(element);
+						if (pallet != null)
+						{
+							var newResult = new PackingResult { Pallet = pallet };
+							if (CanPlaceOnPallet(newResult, element))
+							{
+								PlaceOnPallet(newResult, element);
+								results.Add(newResult);
+							}
+							else
+							{
+								results.UnplacedElements.Add(element);
+							}
+						}
+						else
+						{
+							results.UnplacedElements.Add(element);
+						}
+					}
+				}
+			}
+
+			return results;
+		}
+
+
+		private Pallet GetBestFittingPallet(Element element)
         {
-            return x + w <= palletW && y + d <= palletL;
+            return _availablePallets
+                .Where(p =>
+                    element.Width <= p.Width + p.Overhang &&
+                    element.Depth <= p.Length + p.Overhang &&
+                    (!element.RequiresSpecialPallet || p.IsSpecial) &&
+                    (string.IsNullOrEmpty(element.PalletType) || p.Type.ToString() == element.PalletType))
+                .OrderBy(p => p.Width * p.Length)
+                .FirstOrDefault();
         }
 
-        private bool CanPlaceOnPallet(Element e, Pallet pallet, PalletSettings settings)
+        private bool CanPlaceOnPallet(PackingResult result, Element element)
         {
-            if (e.RequiresSpecialPallet && !pallet.IsSpecial)
+            var newHeight = result.CurrentHeight + element.Height + result.Pallet.SpacingBetweenElements;
+            var newWeight = result.CurrentWeight + element.Weight;
+            var newLayer = result.CurrentLayers + 1;
+
+            if (element.IsGeometric && result.Elements.Any())
+                return false; // kan ikke stables ovenpå geometriske
+
+            if (newHeight > result.Pallet.MaxHeight)
                 return false;
 
-            if (e.Width > pallet.Width + settings.MaxOverhang)
+            if (newWeight > result.Pallet.MaxWeight)
                 return false;
 
-            if (e.Depth > pallet.Length + settings.MaxOverhang)
+            if (newLayer > _settings.MaxLayers)
                 return false;
 
-            if (e.Height + pallet.Height > settings.MaxStackingHeight)
+            if (element.MaxElementsPerPallet.HasValue &&
+                result.Elements.Count >= element.MaxElementsPerPallet.Value)
                 return false;
 
             return true;
         }
 
+        private void PlaceOnPallet(PackingResult result, Element element)
+        {
+            bool shouldRotate = ShouldRotate(element, result.Pallet);
+
+            // Udskift mål hvis element roteres
+            int elementHeight = shouldRotate ? element.Width : element.Height;
+
+            result.Elements.Add(element);
+            result.CurrentHeight += elementHeight + result.Pallet.SpacingBetweenElements;
+            result.CurrentWeight += element.Weight;
+
+            if (result.Elements.Count % 2 == 0)
+                result.CurrentLayers++; // Forenklet laglogik: tæller hvert andet element som nyt lag
+        }
+
+        private bool ShouldRotate(Element element, Pallet pallet)
+        {
+            if (element.Rotation == RotationBehavior.NotAllowed)
+                return false;
+
+            if (element.Rotation == RotationBehavior.Required)
+                return true;
+
+            if (element.Weight > _settings.MaxWeightAllowedToRotate)
+                return false;
+
+            // Hvis rotering er påkrævet pga. max højde
+            if (element.Height > pallet.MaxElementHeight &&
+                _settings.AllowRotationWhenExceedingMaxHeight)
+                return true;
+
+            bool isSingle = element.MaxElementsPerPallet == 1 || false;
+            if (_settings.HeightWidthFactorOnlyForSingleElements && !isSingle)
+                return false;
+
+            double factor = (double)Math.Min(element.Width, element.Height) / Math.Max(element.Width, element.Height);
+            return factor < _settings.HeightWidthFactor;
+        }
     }
 }

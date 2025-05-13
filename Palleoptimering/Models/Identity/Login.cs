@@ -1,7 +1,7 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
 
-namespace Palleoptimering.Models
+namespace Palleoptimering.Models.Identity
 {
     public class Login
     {

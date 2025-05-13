@@ -1,5 +1,5 @@
-﻿@using Palleoptimering.Models
-@model Palleoptimering.Models.PalletSettings
+﻿@using Palleoptimering.Models.Domain
+@model PalletSettings
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
 </head>
 <body>
-    <form asp-action="CreatePalletSettings" method="post" class="m-2">
+    <form asp-action="Index" method="post" class="m-2">
         <div asp-validation-summary="All" class="text-danger"></div>
 
         <div class="form-group">
@@ -60,16 +60,7 @@
             <label asp-for="RowDistribution" class="form-label"></label>
             <select asp-for="RowDistribution" class="form-control" asp-items="Html.GetEnumSelectList<RowDistributionType>()"></select>
         </div>
-
-        <div class="form-group">
-            <label asp-for="MaxOverhang" class="form-label"></label>
-            <input asp-for="MaxOverhang" class="form-control" />
-        </div>
-
-        <div class="form-group">
-            <label asp-for="SpacingBetweenElements" class="form-label"></label>
-            <input asp-for="SpacingBetweenElements" class="form-control" />
-        </div>
+       
 
         <button type="submit" class="btn btn-primary mt-3">Gem</button>
         <button type="button" class="btn btn-secondary mt-3" onclick="location.href='@Url.Action("Index", "Home")'">Afbryd</button>

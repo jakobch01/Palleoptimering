@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Palleoptimering.Models;
+using Palleoptimering.Models.DataAccess;
 
 #nullable disable
 
@@ -38,11 +38,6 @@ namespace Palleoptimering.Migrations.AppDb
 
                     b.Property<bool>("IsGeometric")
                         .HasColumnType("bit");
-
-                    b.Property<string>("Mark")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int?>("MaxElementsPerPallet")
                         .HasColumnType("int");
@@ -188,9 +183,6 @@ namespace Palleoptimering.Migrations.AppDb
                     b.Property<int>("MaxLayers")
                         .HasColumnType("int");
 
-                    b.Property<int>("MaxOverhang")
-                        .HasColumnType("int");
-
                     b.Property<int>("MaxSpace")
                         .HasColumnType("int");
 
@@ -201,9 +193,6 @@ namespace Palleoptimering.Migrations.AppDb
                         .HasColumnType("int");
 
                     b.Property<int>("RowDistribution")
-                        .HasColumnType("int");
-
-                    b.Property<int>("SpacingBetweenElements")
                         .HasColumnType("int");
 
                     b.HasKey("Id");

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Palleoptimering.Models
+namespace Palleoptimering.Models.Domain
 {
     public class Order
     {

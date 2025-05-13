@@ -1,0 +1,81 @@
+﻿@model Palleoptimering.Models.Domain.OptimizationResult;
+
+<h2>📦 Pakkede paller</h2>
+
+@if (Model.PackedPallets.Any())
+{
+    foreach (var pallet in Model.PackedPallets)
+    {
+        <h4>Palle ID: @pallet.Pallet.Id – Type: @pallet.Pallet.Type</h4>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Elementnavn</th>
+                    <th>Bredde</th>
+                    <th>Højde</th>
+                    <th>Dybde</th>
+                    <th>Vægt</th>
+                    <th>Rotation</th>
+                    <th>Serie</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var e in pallet.Elements)
+                {
+                    <tr>
+                        <td>@e.Name</td>
+                        <td>@e.Width</td>
+                        <td>@e.Height</td>
+                        <td>@e.Depth</td>
+                        <td>@e.Weight</td>
+                        <td>@e.Rotation</td>
+                        <td>@e.Series</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}
+else
+{
+    <p>❌ Ingen elementer blev placeret på paller.</p>
+}
+
+<hr />
+
+<h2>🚫 Ikke-pakkede elementer</h2>
+
+@if (Model.UnplacedElements.Any())
+{
+    <table class="table table-warning table-bordered">
+        <thead>
+            <tr>
+                <th>Elementnavn</th>
+                <th>Bredde</th>
+                <th>Højde</th>
+                <th>Dybde</th>
+                <th>Vægt</th>
+                <th>Rotation</th>
+                <th>Serie</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var e in Model.UnplacedElements)
+            {
+                <tr>
+                    <td>@e.Name</td>
+                    <td>@e.Width</td>
+                    <td>@e.Height</td>
+                    <td>@e.Depth</td>
+                    <td>@e.Weight</td>
+                    <td>@e.Rotation</td>
+                    <td>@e.Series</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>✅ Alle elementer blev placeret.</p>
+}

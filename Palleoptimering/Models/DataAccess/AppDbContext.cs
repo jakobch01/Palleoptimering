@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Palleoptimering.Models.Domain;
 
-namespace Palleoptimering.Models
+namespace Palleoptimering.Models.DataAccess
 {
     public class AppDbContext : DbContext
     {

@@ -1,4 +1,6 @@
-﻿namespace Palleoptimering.Models.ViewModels
+﻿using Palleoptimering.Models.Domain;
+
+namespace Palleoptimering.Models.ViewModels
 {
     public class PalletListViewModel
     {

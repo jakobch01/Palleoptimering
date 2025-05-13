@@ -1,8 +1,9 @@
 
-﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Palleoptimering.Models;
+using Palleoptimering.Models.DataAccess;
+using Palleoptimering.Models.Domain;
 using Palleoptimering.Models.ViewModels;
 
 namespace Palleoptimering.Controllers
